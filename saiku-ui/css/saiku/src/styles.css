@@ -287,12 +287,21 @@ textarea, select {
     text-indent: -9999px;
 }
 
+/** GoSimple - Change image dimensions */
+#logo_override img {
+    float: right;
+    width: 91px;
+    height: 40px;
+    margin: -25px 10px 0 0;
+}
+/**
 #logo_override img {
     float: right;
     width: 166px;
     height: 28px;
     margin: -15px 10px 0 0;
 }
+*/
 /** Tabs */
 
 .tabs {
@@ -803,8 +812,11 @@ textarea, select {
 .dialog_delete .dialog_body {
 	padding-top: 10px;
 }
+/** GoSimple - Change the login icon from Saiku to GoSimple */
 .dialog_login .dialog_icon {
-    background-position: -666px 15px;
+    /*background-position: -666px 15px;*/
+	background: url('../../../images/src/go_100.png') no-repeat;
+	margin-top: 5px;
 }
 .dialog_selections {
 	min-width: 800px !important;
@@ -2696,4 +2708,33 @@ margin-bottom: 20px;
     padding-bottom:3px;
     padding-left:6px;
     padding-right:6px;
+}
+/*
+* GoSimple - specific stuff for us.
+*/
+
+.gosimple_logo {
+	background: url('../../../images/src/gosimple_logo.png') no-repeat;
+}
+.gosimple_logo_small {
+	background: url('../../../images/src/gosimple_logo_large.png') no-repeat;
+}
+.gosimple_icon_16 {
+	background: url('../../../images/src/go_16.png') no-repeat;
+}
+.gosimple_icon_32 {
+	background: url('../../../images/src/go_32.png') no-repeat;
+}
+.gosimple_icon_100 {
+	background: url('../../../images/src/go_100.png') no-repeat;
+}
+.gosimple_icon_waiting {
+	display: inline-block;
+	background-image: url('../../../images/src/go_32.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 32px;
+	height: 32px;
+	padding: 5px;
+	margin-right: 20px;
 }

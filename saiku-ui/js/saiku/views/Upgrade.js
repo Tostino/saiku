@@ -42,6 +42,9 @@ var Upgrade = Backbone.View.extend({
 
 		var self = this;
 		var license = new License();
+		// GoSimple - Don't show the license message.
+		return this;
+		/*
 
 		if(Settings.BIPLUGIN5){
 				if(Saiku.session.get("notice") != undefined && Saiku.session.get("notice")!=null && Saiku.session.get("notice")!=""){
@@ -95,6 +98,7 @@ var Upgrade = Backbone.View.extend({
 					return self;
 				}
 		}
+		 */
 
 
 

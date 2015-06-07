@@ -337,7 +337,9 @@ public class AdminResource {
         if(!userService.isAdmin()){
             return Response.status(Response.Status.FORBIDDEN).build();
         }
-        return Response.ok().entity(userService.getUsers()).build();
+        // GoSimple - Now unsupported
+        return Response.status(Response.Status.BAD_REQUEST).build();
+        //return Response.ok().entity(userService.getUsers()).build();
 
     }
 
@@ -434,8 +436,12 @@ public class AdminResource {
         if(!userService.isAdmin()){
             return Response.status(Response.Status.FORBIDDEN).build();
         }
-        datasourceService.importLegacyUsers();
-        return Response.ok().build();
+
+        // GoSimple - Now unsupported
+        return Response.status(Response.Status.BAD_REQUEST).build();
+
+        //datasourceService.importLegacyUsers();
+        //return Response.ok().build();
     }
 
     /**
@@ -471,12 +477,17 @@ public class AdminResource {
         if(!userService.isAdmin()){
             return Response.status(Response.Status.FORBIDDEN).build();
         }
+
+        // GoSimple - Now unsupported
+        return Response.status(Response.Status.BAD_REQUEST).build();
+        /*
         if(jsonString.getPassword() == null || jsonString.getPassword().equals("")) {
             return Response.ok().entity(userService.updateUser(jsonString, false)).build();
         }
         else{
             return Response.ok().entity(userService.updateUser(jsonString, true)).build();
         }
+        */
     }
 
     /**
@@ -495,7 +506,10 @@ public class AdminResource {
         if(!userService.isAdmin()){
             return Response.status(Response.Status.FORBIDDEN).build();
         }
-        return Response.ok().entity(userService.addUser(jsonString)).build();
+
+        // GoSimple - Now unsupported
+        return Response.status(Response.Status.BAD_REQUEST).build();
+        //return Response.ok().entity(userService.addUser(jsonString)).build();
     }
 
     /**
@@ -511,8 +525,11 @@ public class AdminResource {
         if(!userService.isAdmin()){
             return Response.status(Response.Status.FORBIDDEN).build();
         }
-        userService.removeUser(username);
-        return Response.ok().build();
+
+        // GoSimple - Now unsupported
+        return Response.status(Response.Status.BAD_REQUEST).build();
+        //userService.removeUser(username);
+        //return Response.ok().build();
     }
 
     /**

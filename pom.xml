@@ -328,7 +328,11 @@
             <dependency>
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
+                <!-- GoSimple - Update to more recent driver -->
+                <version>9.4-1201-jdbc41</version>
+                <!--
                 <version>9.3-1102-jdbc41</version>
+                -->
             </dependency>
             <dependency>
                 <groupId>org.apache.hive</groupId>

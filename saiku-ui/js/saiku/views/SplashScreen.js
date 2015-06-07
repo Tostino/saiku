@@ -75,6 +75,10 @@ var SplashScreen = Backbone.View.extend({
         return false;
     },
     template: function() {
+		// GoSimple - Change splash screen.
+		var template = $("<div><div id='splash'><nav><ul><li class='active'><a class='welcome' href='#'>Welcome</a></li></ul><h2>Explore Data. Visualise. Act.</h2></nav><section class='tabs'><section style='margin-top:50px' id='welcome'><h1 class='gosimple_logo'>GoSimple</h1><p>Welcome to the GoSimple pivot reporting tool. Where all your dreams come true. </p></section></section></div></div>").html() || "";
+
+		/*
         var template = $("<div> <div id='splash'> <nav> <ul> <li class='active'><a class='welcome head'" +
                 " href='#'>Welcome</a></li> <li><a class='features head' href='#'>Features</a></li> <li><a" +
                 " class='help head' href='#'>Get Help</a></li> <li class='enterprisetoggle enterprise'><a" +
@@ -126,6 +130,7 @@ var SplashScreen = Backbone.View.extend({
                 " href='http://wiki.meteorite.bi' target='_blank'>Wiki site</a>" +
                 "<br/>for community documentation.</td> <td>If you require more, <br/><a href='mailto:info@meteorite.bi'>contact us</a> for support!.</td> </tr> </table> </section>" +
                 " <section style='display:none !important;margin-top:50px' id='enterprise'> <h1 class='saikulogo'>Saiku</h1> <h2>Enterprise</h2> <p>Saiku Enterprise is our fully supported and tested server and Pentaho plugin system. Buy Saiku Enterprise from as little as $15 per user per month and enjoy the addtional features Saiku Enterprise has to offer</p> <p>To find out more visit our <a href='http://meteorite.bi' target='_blank'>site</a> or <a href='mailto:info@meteorite.bi'>schedule a call</a> with one of us and we can show you why you should choose Saiku Enterprise!</p> </section> </section> </div> </div>").html() || "";
+		*/
         return _.template(template)({
             //    cube_navigation: Saiku.session.sessionworkspace.cube_navigation
         });

@@ -18,6 +18,10 @@
  * Change settings here
  */
 var Settings = {
+	// GoSimple - Extra settings to override logos
+	LOGO: "../../../images/src/gosimple_logo.png",
+	LOGO_32x32: "../../../images/src/go_32.png",
+	ICON_16: "../../../images/src/go_16.png",
     VERSION: "Saiku-${version}",
     LICENSE: {},
     BIPLUGIN: false,
@@ -66,8 +70,8 @@ var Settings = {
     DEMO: false,
     TELEMETRY_SERVER: 'http://telemetry.analytical-labs.com:7000',
     LOCALSTORAGE_EXPIRATION: 10 * 60 * 60 * 1000 /* 10 hours, in ms */,
-    UPGRADE: true,
-    EVALUATION_PANEL_LOGIN: true,
+    UPGRADE: false,
+    EVALUATION_PANEL_LOGIN: false,
     QUERY_OVERWRITE_WARNING: true,
     MAPS: true,
     MAPS_TYPE: 'OSM', // OSM || GMAPS
@@ -112,7 +116,7 @@ var Settings = {
     },
     PARENT_MEMBER_DIMENSION: false,
     EXT_DATASOURCE_PROPERTIES: false,
-    SHOW_USER_MANAGEMENT: true
+    SHOW_USER_MANAGEMENT: false
 };
 
 /**
