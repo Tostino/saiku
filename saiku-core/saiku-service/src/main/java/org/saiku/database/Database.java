@@ -61,7 +61,6 @@ public class Database {
 
     public void init() throws SQLException {
         initDB();
-        loadUsers();
         loadFoodmart();
         loadEarthquakes();
         loadLegacyDatasources();
@@ -218,52 +217,6 @@ public class Database {
     {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
         return new String(encoded, encoding);
-    }
-    private void loadUsers() throws SQLException {
-
-        Connection c = ds.getConnection();
-
-        Statement statement = c.createStatement();
-        statement.execute("CREATE TABLE IF NOT EXISTS LOG(time TIMESTAMP AS CURRENT_TIMESTAMP NOT NULL, log CLOB);");
-
-        statement.execute("CREATE TABLE IF NOT EXISTS USERS(user_id INT(11) NOT NULL AUTO_INCREMENT, " +
-                "username VARCHAR(45) NOT NULL UNIQUE, password VARCHAR(100) NOT NULL, email VARCHAR(100), " +
-                "enabled TINYINT NOT NULL DEFAULT 1, PRIMARY KEY(user_id));");
-
-        statement.execute("CREATE TABLE IF NOT EXISTS USER_ROLES (\n"
-                + "  user_role_id INT(11) NOT NULL AUTO_INCREMENT,username VARCHAR(45),\n"
-                + "  user_id INT(11) NOT NULL REFERENCES USERS(user_id),\n"
-                + "  ROLE VARCHAR(45) NOT NULL,\n"
-                + "  PRIMARY KEY (user_role_id));");
-
-        ResultSet result = statement.executeQuery("select count(*) as c from LOG where log = 'insert users'");
-        result.next();
-        if (result.getInt("c") == 0) {
-            dsm.createUser("admin");
-            dsm.createUser("smith");
-            statement.execute("INSERT INTO users(username,password,email, enabled)\n"
-                    + "VALUES ('admin','admin', 'test@admin.com',TRUE);" +
-                    "INSERT INTO users(username,password,enabled)\n"
-                    + "VALUES ('smith','smith', TRUE);");
-            statement.execute(
-                    "INSERT INTO user_roles (user_id, username, ROLE)\n"
-                            + "VALUES (1, 'admin', 'ROLE_USER');" +
-                            "INSERT INTO user_roles (user_id, username, ROLE)\n"
-                            + "VALUES (1, 'admin', 'ROLE_ADMIN');" +
-                            "INSERT INTO user_roles (user_id, username, ROLE)\n"
-                            + "VALUES (2, 'smith', 'ROLE_USER');");
-
-            statement.execute("INSERT INTO LOG(log) VALUES('insert users');");
-        }
-
-        String encrypt = servletContext.getInitParameter("db.encryptpassword");
-        if(encrypt.equals("true") && !checkUpdatedEncyption()){
-            log.debug("Encrypting User Passwords");
-            updateForEncyption();
-            log.debug("Finished Encrypting Passwords");
-        }
-
-
     }
 
     private boolean checkUpdatedEncyption() throws SQLException{

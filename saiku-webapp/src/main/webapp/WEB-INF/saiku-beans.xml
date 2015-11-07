@@ -24,12 +24,6 @@
         <property name="userService" ref="userServiceBean"/>
         <property name="configurationpath" value="${repoconfig}"/>
         <property name="datadir" value="${repodata}"/>
-        <property name="foodmartdir" value="${foodmartrepo}"/>
-        <property name="foodmartschema" value="${foodmartschema}"/>
-        <property name="foodmarturl" value="${foodmarturl}"/>
-        <property name="earthquakeDir" value="${earthquakerepo}"/>
-        <property name="earthquakeSchema" value="${earthquakeschema}"/>
-        <property name="earthquakeUrl" value="${earthquakeurl}"/>
         <property name="repoPasswordProvider" ref ="repoPasswordProviderBean"/>
         <property name="defaultRole" value="${default.role}"/>
         <property name="externalPropertiesFile" value="${external.properties.file}"/>
