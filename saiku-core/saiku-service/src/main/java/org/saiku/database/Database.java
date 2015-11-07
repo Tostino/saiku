@@ -61,6 +61,7 @@ public class Database {
 
     public void init() throws SQLException {
         initDB();
+        createLog();
         loadFoodmart();
         loadEarthquakes();
         loadLegacyDatasources();
@@ -219,35 +220,12 @@ public class Database {
         return new String(encoded, encoding);
     }
 
-    private boolean checkUpdatedEncyption() throws SQLException{
+    private void createLog() throws SQLException {
+
         Connection c = ds.getConnection();
 
         Statement statement = c.createStatement();
-        ResultSet result = statement.executeQuery("select count(*) as c from LOG where log = 'update passwords'");
-        result.next();
-        return result.getInt("c") != 0;
-    }
-    private void updateForEncyption() throws SQLException {
-        Connection c = ds.getConnection();
-
-        Statement statement = c.createStatement();
-        statement.execute("ALTER TABLE users ALTER COLUMN password VARCHAR(100) DEFAULT NULL");
-
-        ResultSet result = statement.executeQuery("select username, password from users");
-
-        while(result.next()){
-            statement = c.createStatement();
-
-            String pword = result.getString("password");
-            String hashedPassword = passwordEncoder.encode(pword);
-            String sql = "UPDATE users " +
-                        "SET password = '"+hashedPassword+"' WHERE username = '"+result.getString("username")+"'";
-            statement.executeUpdate(sql);
-        }
-        statement = c.createStatement();
-
-        statement.execute("INSERT INTO LOG(log) VALUES('update passwords');");
-
+        statement.execute("CREATE TABLE IF NOT EXISTS LOG(time TIMESTAMP AS CURRENT_TIMESTAMP NOT NULL, log CLOB);");
     }
 
     private void loadLegacyDatasources() throws SQLException {
