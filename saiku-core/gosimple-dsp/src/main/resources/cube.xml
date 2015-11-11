@@ -1,0 +1,1326 @@
+<Cube name="~CLIENT_DESCRIPTION~ - Sale" visible="true" cache="true" >
+    <Dimensions>
+        <Dimension source="Client" visible="false" />
+        <Dimension source="Invoice" />
+        <Dimension name="Company" visible="true" table="dim_company" key="company_sk" hanger="false">
+            <Attributes>
+                <Attribute name="company_sk" levelType="Regular" keyColumn="company_sk" hasHierarchy="false" />
+                <Attribute name="Company Name" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="company_name" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Company Number" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="company_number" />
+                    </Key>
+                    <Name>
+                        <Column name="company_number" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Country" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                    </Key>
+                </Attribute>
+                <Attribute name="State" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                        <Column name="region" />
+                    </Key>
+                    <Name>
+                        <Column name="region" />
+                    </Name>
+                </Attribute>
+                <Attribute name="City" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                        <Column name="region" />
+                        <Column name="city" />
+                    </Key>
+                    <Name>
+                        <Column name="city" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Postal Code" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                        <Column name="region" />
+                        <Column name="city" />
+                        <Column name="postal_code" />
+                    </Key>
+                    <Name>
+                        <Column name="postal_code" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Address" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                        <Column name="region" />
+                        <Column name="city" />
+                        <Column name="postal_code" />
+                        <Column name="address" />
+                    </Key>
+                    <Name>
+                        <Column name="address" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Internal Company Type" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="internal_company_type" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Company Type" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="internal_company_type" />
+                        <Column name="company_type_description" />
+                    </Key>
+                    <Name>
+                        <Column name="company_type_description" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Client Defined Field 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_01" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_02" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_03" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_04" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_05" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_06" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_07" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_08" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_09" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_10" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Company Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Company Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_02" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_03" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_04" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_05" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_06" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_07" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_08" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_09" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_10" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_11" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_12" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_13" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                        <Column name="grouping_14" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                        <Column name="grouping_14" />
+                        <Column name="grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_15" />
+                    </Name>
+                </Attribute>
+            </Attributes>
+            <Hierarchies>
+                <Hierarchy name="Company Name" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Company Name" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Company Number" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Company Number" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Company Type" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Company Type" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Internal Company Type" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Internal Company Type" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Location" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Country" hideMemberIf="Never" />
+                    <Level visible="true" attribute="State" hideMemberIf="Never" />
+                    <Level visible="true" attribute="City" hideMemberIf="Never" />
+                    <Level visible="true" attribute="Postal Code" hideMemberIf="Never" />
+                    <Level visible="true" attribute="Address" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 01"  visible="~COMPANY_CDF_ENABLED_01~" hasAll="true" caption="~COMPANY_CDF_CAPTION_01~">
+                    <Level visible="true" attribute="Client Defined Field 01" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 02"  visible="~COMPANY_CDF_ENABLED_02~" hasAll="true" caption="~COMPANY_CDF_CAPTION_02~">
+                    <Level visible="true" attribute="Client Defined Field 02" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 03"  visible="~COMPANY_CDF_ENABLED_03~" hasAll="true" caption="~COMPANY_CDF_CAPTION_03~">
+                    <Level visible="true" attribute="Client Defined Field 03" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 04"  visible="~COMPANY_CDF_ENABLED_04~" hasAll="true" caption="~COMPANY_CDF_CAPTION_04~">
+                    <Level visible="true" attribute="Client Defined Field 04" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 05"  visible="~COMPANY_CDF_ENABLED_05~" hasAll="true" caption="~COMPANY_CDF_CAPTION_05~">
+                    <Level visible="true" attribute="Client Defined Field 05" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 06"  visible="~COMPANY_CDF_ENABLED_06~" hasAll="true" caption="~COMPANY_CDF_CAPTION_06~">
+                    <Level visible="true" attribute="Client Defined Field 06" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 07"  visible="~COMPANY_CDF_ENABLED_07~" hasAll="true" caption="~COMPANY_CDF_CAPTION_07~">
+                    <Level visible="true" attribute="Client Defined Field 07" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 08"  visible="~COMPANY_CDF_ENABLED_08~" hasAll="true" caption="~COMPANY_CDF_CAPTION_08~">
+                    <Level visible="true" attribute="Client Defined Field 08" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 09"  visible="~COMPANY_CDF_ENABLED_09~" hasAll="true" caption="~COMPANY_CDF_CAPTION_09~">
+                    <Level visible="true" attribute="Client Defined Field 09" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 10"  visible="~COMPANY_CDF_ENABLED_10~" hasAll="true" caption="~COMPANY_CDF_CAPTION_10~">
+                    <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="Company Grouping" visible="true" hasAll="true">
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_01~" attribute="Company Grouping 01" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_01~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_02~" attribute="Company Grouping 02" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_02~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_03~" attribute="Company Grouping 03" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_03~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_04~" attribute="Company Grouping 04" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_04~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_05~" attribute="Company Grouping 05" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_05~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_06~" attribute="Company Grouping 06" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_06~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_07~" attribute="Company Grouping 07" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_07~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_08~" attribute="Company Grouping 08" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_08~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_09~" attribute="Company Grouping 09" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_09~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_10~" attribute="Company Grouping 10" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_10~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_11~" attribute="Company Grouping 11" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_11~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_12~" attribute="Company Grouping 12" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_12~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_13~" attribute="Company Grouping 13" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_13~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_14~" attribute="Company Grouping 14" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_14~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_15~" attribute="Company Grouping 15" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_15~" />
+                </Hierarchy>
+            </Hierarchies>
+        </Dimension>
+        <Dimension name="Re-Distributor" visible="true" table="dim_company" key="company_sk" hanger="false">
+            <Attributes>
+                <Attribute name="company_sk" levelType="Regular" keyColumn="company_sk" hasHierarchy="false" />
+                <Attribute name="Company Name" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="company_name" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Company Number" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="company_number" />
+                    </Key>
+                    <Name>
+                        <Column name="company_number" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Country" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                    </Key>
+                </Attribute>
+                <Attribute name="State" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                        <Column name="region" />
+                    </Key>
+                    <Name>
+                        <Column name="region" />
+                    </Name>
+                </Attribute>
+                <Attribute name="City" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                        <Column name="region" />
+                        <Column name="city" />
+                    </Key>
+                    <Name>
+                        <Column name="city" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Postal Code" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                        <Column name="region" />
+                        <Column name="city" />
+                        <Column name="postal_code" />
+                    </Key>
+                    <Name>
+                        <Column name="postal_code" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Address" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="country" />
+                        <Column name="region" />
+                        <Column name="city" />
+                        <Column name="postal_code" />
+                        <Column name="address" />
+                    </Key>
+                    <Name>
+                        <Column name="address" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Internal Company Type" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="internal_company_type" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Company Type" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="internal_company_type" />
+                        <Column name="company_type_description" />
+                    </Key>
+                    <Name>
+                        <Column name="company_type_description" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Client Defined Field 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_01" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_02" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_03" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_04" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_05" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_06" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_07" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_08" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_09" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_10" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Company Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Company Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_02" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_03" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_04" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_05" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_06" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_07" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_08" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_09" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_10" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_11" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_12" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_13" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                        <Column name="grouping_14" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Company Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                        <Column name="grouping_14" />
+                        <Column name="grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_15" />
+                    </Name>
+                </Attribute>
+            </Attributes>
+            <Hierarchies>
+                <Hierarchy name="Company Name" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Company Name" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Company Number" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Company Number" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Company Type" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Company Type" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Internal Company Type" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Internal Company Type" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Location" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Country" hideMemberIf="Never" />
+                    <Level visible="true" attribute="State" hideMemberIf="Never" />
+                    <Level visible="true" attribute="City" hideMemberIf="Never" />
+                    <Level visible="true" attribute="Postal Code" hideMemberIf="Never" />
+                    <Level visible="true" attribute="Address" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 01"  visible="~COMPANY_CDF_ENABLED_01~" hasAll="true" caption="~COMPANY_CDF_CAPTION_01~">
+                    <Level visible="true" attribute="Client Defined Field 01" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 02"  visible="~COMPANY_CDF_ENABLED_02~" hasAll="true" caption="~COMPANY_CDF_CAPTION_02~">
+                    <Level visible="true" attribute="Client Defined Field 02" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 03"  visible="~COMPANY_CDF_ENABLED_03~" hasAll="true" caption="~COMPANY_CDF_CAPTION_03~">
+                    <Level visible="true" attribute="Client Defined Field 03" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 04"  visible="~COMPANY_CDF_ENABLED_04~" hasAll="true" caption="~COMPANY_CDF_CAPTION_04~">
+                    <Level visible="true" attribute="Client Defined Field 04" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 05"  visible="~COMPANY_CDF_ENABLED_05~" hasAll="true" caption="~COMPANY_CDF_CAPTION_05~">
+                    <Level visible="true" attribute="Client Defined Field 05" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 06"  visible="~COMPANY_CDF_ENABLED_06~" hasAll="true" caption="~COMPANY_CDF_CAPTION_06~">
+                    <Level visible="true" attribute="Client Defined Field 06" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 07"  visible="~COMPANY_CDF_ENABLED_07~" hasAll="true" caption="~COMPANY_CDF_CAPTION_07~">
+                    <Level visible="true" attribute="Client Defined Field 07" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 08"  visible="~COMPANY_CDF_ENABLED_08~" hasAll="true" caption="~COMPANY_CDF_CAPTION_08~">
+                    <Level visible="true" attribute="Client Defined Field 08" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 09"  visible="~COMPANY_CDF_ENABLED_09~" hasAll="true" caption="~COMPANY_CDF_CAPTION_09~">
+                    <Level visible="true" attribute="Client Defined Field 09" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 10"  visible="~COMPANY_CDF_ENABLED_10~" hasAll="true" caption="~COMPANY_CDF_CAPTION_10~">
+                    <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="Company Grouping" visible="true" hasAll="true">
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_01~" attribute="Company Grouping 01" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_01~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_02~" attribute="Company Grouping 02" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_02~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_03~" attribute="Company Grouping 03" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_03~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_04~" attribute="Company Grouping 04" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_04~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_05~" attribute="Company Grouping 05" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_05~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_06~" attribute="Company Grouping 06" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_06~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_07~" attribute="Company Grouping 07" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_07~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_08~" attribute="Company Grouping 08" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_08~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_09~" attribute="Company Grouping 09" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_09~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_10~" attribute="Company Grouping 10" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_10~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_11~" attribute="Company Grouping 11" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_11~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_12~" attribute="Company Grouping 12" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_12~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_13~" attribute="Company Grouping 13" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_13~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_14~" attribute="Company Grouping 14" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_14~" />
+                    <Level  visible="~COMPANY_GROUPING_ENABLED_15~" attribute="Company Grouping 15" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_15~" />
+                </Hierarchy>
+            </Hierarchies>
+        </Dimension>
+        <Dimension name="Product" visible="true" table="dim_product" key="product_sk" hanger="false">
+            <Attributes>
+                <Attribute name="product_sk" levelType="Regular" keyColumn="product_sk" hasHierarchy="false" />
+                <Attribute name="Product Name" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="product_name" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Product Number" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="product_number" />
+                    </Key>
+                    <Name>
+                        <Column name="product_number" />
+                    </Name>
+                </Attribute>
+                <Attribute name="GTIN Number" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="gtin_number" />
+                    </Key>
+                </Attribute>
+                <Attribute name="UPC Number" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="upc_number" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Brand Name" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="brand_name" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Pack/Size/UOM" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="pack_size_size_uom" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_01" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_02" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_03" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_04" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_05" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_06" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_07" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_08" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_09" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Client Defined Field 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="attribute_10" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Product Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Product Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_02" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_03" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_04" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_05" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_06" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_07" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_08" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_09" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_10" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_11" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_12" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_13" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                        <Column name="grouping_14" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Product Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="grouping_01" />
+                        <Column name="grouping_02" />
+                        <Column name="grouping_03" />
+                        <Column name="grouping_04" />
+                        <Column name="grouping_05" />
+                        <Column name="grouping_06" />
+                        <Column name="grouping_07" />
+                        <Column name="grouping_08" />
+                        <Column name="grouping_09" />
+                        <Column name="grouping_10" />
+                        <Column name="grouping_11" />
+                        <Column name="grouping_12" />
+                        <Column name="grouping_13" />
+                        <Column name="grouping_14" />
+                        <Column name="grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="grouping_15" />
+                    </Name>
+                </Attribute>
+            </Attributes>
+            <Hierarchies>
+                <Hierarchy name="Product Name" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Product Name" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Product Number" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Product Number" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="GTIN Number" visible="true" hasAll="true">
+                    <Level visible="true" attribute="GTIN Number" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="UPC Number" visible="true" hasAll="true">
+                    <Level visible="true" attribute="UPC Number" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Brand Name" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Brand Name" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Pack/Size/UOM" visible="true" hasAll="true">
+                    <Level visible="true" attribute="Pack/Size/UOM" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 01"  visible="~PRODUCT_CDF_ENABLED_01~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_01~">
+                    <Level visible="true" attribute="Client Defined Field 01" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 02"  visible="~PRODUCT_CDF_ENABLED_02~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_02~">
+                    <Level visible="true" attribute="Client Defined Field 02" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 03"  visible="~PRODUCT_CDF_ENABLED_03~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_03~">
+                    <Level visible="true" attribute="Client Defined Field 03" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 04"  visible="~PRODUCT_CDF_ENABLED_04~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_04~">
+                    <Level visible="true" attribute="Client Defined Field 04" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 05"  visible="~PRODUCT_CDF_ENABLED_05~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_05~">
+                    <Level visible="true" attribute="Client Defined Field 05" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 06"  visible="~PRODUCT_CDF_ENABLED_06~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_06~">
+                    <Level visible="true" attribute="Client Defined Field 06" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 07"  visible="~PRODUCT_CDF_ENABLED_07~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_07~">
+                    <Level visible="true" attribute="Client Defined Field 07" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 08"  visible="~PRODUCT_CDF_ENABLED_08~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_08~">
+                    <Level visible="true" attribute="Client Defined Field 08" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 09"  visible="~PRODUCT_CDF_ENABLED_09~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_09~">
+                    <Level visible="true" attribute="Client Defined Field 09" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="Client Defined Field 10"  visible="~PRODUCT_CDF_ENABLED_10~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_10~">
+                    <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="Product Grouping" visible="true" hasAll="true">
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_01~" attribute="Product Grouping 01" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_01~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_02~" attribute="Product Grouping 02" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_02~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_03~" attribute="Product Grouping 03" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_03~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_04~" attribute="Product Grouping 04" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_04~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_05~" attribute="Product Grouping 05" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_05~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_06~" attribute="Product Grouping 06" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_06~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_07~" attribute="Product Grouping 07" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_07~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_08~" attribute="Product Grouping 08" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_08~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_09~" attribute="Product Grouping 09" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_09~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_10~" attribute="Product Grouping 10" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_10~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_11~" attribute="Product Grouping 11" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_11~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_12~" attribute="Product Grouping 12" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_12~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_13~" attribute="Product Grouping 13" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_13~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_14~" attribute="Product Grouping 14" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_14~" />
+                    <Level  visible="~PRODUCT_GROUPING_ENABLED_15~" attribute="Product Grouping 15" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_15~" />
+                </Hierarchy>
+            </Hierarchies>
+        </Dimension>
+        <Dimension source="Time" />
+    </Dimensions>
+    <MeasureGroups>
+        <MeasureGroup name="Sales" type="fact" table="fact_sale_view">
+            <Measures>
+                <Measure name="Net Sales" datatype="Numeric" aggregator="sum" visible="true" formatString="$#,##0.00">
+                    <Arguments>
+                        <Column name="net_sale" />
+                    </Arguments>
+                </Measure>
+                <Measure name="Gross Sales" datatype="Numeric" aggregator="sum" visible="true" formatString="$#,##0.00">
+                    <Arguments>
+                        <Column name="gross_sale" />
+                    </Arguments>
+                </Measure>
+                <Measure name="Freight" datatype="Numeric" aggregator="sum" visible="true" formatString="$#,##0.00">
+                    <Arguments>
+                        <Column name="freight" />
+                    </Arguments>
+                </Measure>
+                <Measure name="Reduction" datatype="Numeric" aggregator="sum" visible="true" formatString="$#,##0.00">
+                    <Arguments>
+                        <Column name="reduction" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_01~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_01~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_01" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_02~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_02~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_02" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_03~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_03~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_03" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_04~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_04~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_04" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_05~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_05~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_05" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_06~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_06~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_06" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_07~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_07~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_07" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_08~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_08~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_08" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_09~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_09~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_09" />
+                    </Arguments>
+                </Measure>
+                <Measure name="~MEASURE_CAPTION_10~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_10~" formatString="#,###.00">
+                    <Arguments>
+                        <Column name="measure_10" />
+                    </Arguments>
+                </Measure>
+            </Measures>
+            <DimensionLinks>
+                <FactLink dimension="Invoice" />
+                <ForeignKeyLink dimension="Client">
+                    <ForeignKey>
+                        <Column name="client_sk" />
+                    </ForeignKey>
+                </ForeignKeyLink>
+                <ForeignKeyLink dimension="Company">
+                    <ForeignKey>
+                        <Column name="company_sk" />
+                    </ForeignKey>
+                </ForeignKeyLink>
+                <ForeignKeyLink dimension="ReDistributor">
+                    <ForeignKey>
+                        <Column name="redistributor_company_sk" />
+                    </ForeignKey>
+                </ForeignKeyLink>
+                <ForeignKeyLink dimension="Product">
+                    <ForeignKey>
+                        <Column name="product_sk" />
+                    </ForeignKey>
+                </ForeignKeyLink>
+                <ForeignKeyLink dimension="Time">
+                    <ForeignKey>
+                        <Column name="sale_reporting_date" />
+                    </ForeignKey>
+                </ForeignKeyLink>
+            </DimensionLinks>
+        </MeasureGroup>
+    </MeasureGroups>
+</Cube>

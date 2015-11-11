@@ -1,0 +1,10 @@
+<Role name="~REPORTING_ROLE~">
+    <SchemaGrant access="none">
+        <CubeGrant cube="~CLIENT_DESCRIPTION~ - Sale" access="all">
+            <HierarchyGrant access="custom" hierarchy="[Client].[Client Name]" rollupPolicy="partial">
+                <MemberGrant access="none" member="[Client].[Client Name].[All Client Names]" />
+                <MemberGrant access="all" member="[Client].[Client Name].[Client Name].[~CLIENT_NAME~]" />
+            </HierarchyGrant>
+        </CubeGrant>
+    </SchemaGrant>
+</Role>

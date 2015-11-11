@@ -53,7 +53,7 @@
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <classifier>sources</classifier>
-                                    <outputDirectory>target/saiku-webapp-3.0.1-SNAPSHOT/WEB-INF/lib/</outputDirectory>
+                                    <outputDirectory>target/saiku-webapp/WEB-INF/lib/</outputDirectory>
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
@@ -203,6 +203,10 @@
         </dependency>
         <dependency>
             <groupId>org.saikuanalytics</groupId>
+            <artifactId>gosimple-dsp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.saikuanalytics</groupId>
             <artifactId>saiku-web</artifactId>
         </dependency>
         <dependency>
@@ -303,7 +307,6 @@
             <artifactId>spring-security-ldap</artifactId>
             <version>4.0.1.RELEASE</version>
         </dependency>
-
     </dependencies>
     <reporting>
         <plugins>
