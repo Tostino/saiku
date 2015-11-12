@@ -203,11 +203,12 @@
         </dependency>
         <dependency>
             <groupId>org.saikuanalytics</groupId>
-            <artifactId>gosimple-dsp</artifactId>
+            <artifactId>saiku-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.saikuanalytics</groupId>
-            <artifactId>saiku-web</artifactId>
+            <artifactId>gosimple-dsp</artifactId>
+            <version>3.7.4</version>
         </dependency>
         <dependency>
             <groupId>org.saikuanalytics</groupId>

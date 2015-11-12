@@ -421,7 +421,7 @@
                 </Hierarchy>
             </Hierarchies>
         </Dimension>
-        <Dimension name="Re-Distributor" visible="true" table="dim_company" key="company_sk" hanger="false">
+        <Dimension name="Re-Distributor" visible="true" table="dim_redistributor_company" key="company_sk"  hanger="false">
             <Attributes>
                 <Attribute name="company_sk" levelType="Regular" keyColumn="company_sk" hasHierarchy="false" />
                 <Attribute name="Company Name" levelType="Regular" datatype="String" hasHierarchy="false">
@@ -1305,7 +1305,7 @@
                         <Column name="company_sk" />
                     </ForeignKey>
                 </ForeignKeyLink>
-                <ForeignKeyLink dimension="ReDistributor">
+                <ForeignKeyLink dimension="Re-Distributor">
                     <ForeignKey>
                         <Column name="redistributor_company_sk" />
                     </ForeignKey>
