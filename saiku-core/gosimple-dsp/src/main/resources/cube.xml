@@ -1,7 +1,7 @@
 <Cube name="~CLIENT_DESCRIPTION~ - Sale" visible="true" cache="true" >
     <Dimensions>
         <Dimension source="Client" />
-        <Dimension source="Invoice-Number" />
+        <Dimension source="Invoice Number" />
         <Dimension source="Direct-Indirect" />
         <Dimension name="Company" visible="true" table="dim_company" key="company_sk" hanger="false">
             <Attributes>
@@ -1321,7 +1321,7 @@
                     </ForeignKey>
                 </ForeignKeyLink>
                 <FactLink dimension="Direct-Indirect" />
-                <FactLink dimension="Invoice-Number" />
+                <FactLink dimension="Invoice Number" />
             </DimensionLinks>
         </MeasureGroup>
     </MeasureGroups>
