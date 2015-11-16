@@ -1,7 +1,8 @@
 <Cube name="~CLIENT_DESCRIPTION~ - Sale" visible="true" cache="true" >
     <Dimensions>
-        <Dimension source="Client" visible="false" />
-        <Dimension source="Invoice" />
+        <Dimension source="Client" />
+        <Dimension source="Invoice-Number" />
+        <Dimension source="Direct-Indirect" />
         <Dimension name="Company" visible="true" table="dim_company" key="company_sk" hanger="false">
             <Attributes>
                 <Attribute name="company_sk" levelType="Regular" keyColumn="company_sk" hasHierarchy="false" />
@@ -1294,7 +1295,6 @@
                 </Measure>
             </Measures>
             <DimensionLinks>
-                <FactLink dimension="Invoice" />
                 <ForeignKeyLink dimension="Client">
                     <ForeignKey>
                         <Column name="client_sk" />
@@ -1320,6 +1320,8 @@
                         <Column name="sale_reporting_date" />
                     </ForeignKey>
                 </ForeignKeyLink>
+                <FactLink dimension="Direct-Indirect" />
+                <FactLink dimension="Invoice-Number" />
             </DimensionLinks>
         </MeasureGroup>
     </MeasureGroups>
