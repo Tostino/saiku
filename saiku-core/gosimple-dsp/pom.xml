@@ -56,22 +56,16 @@
                     </execution>
                 </executions>
             </plugin>
-
-
         </plugins>
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.saikuanalytics</groupId>
-            <artifactId>saiku-service</artifactId>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.saikuanalytics</groupId>
-            <artifactId>saiku-olap-util</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.saikuanalytics</groupId>
-            <artifactId>saiku-web</artifactId>
+            <groupId>pentaho</groupId>
+            <artifactId>mondrian</artifactId>
         </dependency>
     </dependencies>
 </project>

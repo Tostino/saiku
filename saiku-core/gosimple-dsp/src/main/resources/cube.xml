@@ -1,6 +1,5 @@
 <Cube name="~CLIENT_DESCRIPTION~ - Sale" visible="true" cache="true" >
     <Dimensions>
-        <Dimension source="Client" visible="false" />
         <Dimension source="Invoice" />
         <Dimension name="Company" visible="true" table="dim_company" key="company_sk" hanger="false">
             <Attributes>
@@ -12,6 +11,7 @@
                 </Attribute>
                 <Attribute name="Company Number" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
+                        <Column name="company_name" />
                         <Column name="company_number" />
                     </Key>
                     <Name>
@@ -353,17 +353,13 @@
                 </Attribute>
             </Attributes>
             <Hierarchies>
-                <Hierarchy name="Company Name" visible="true" hasAll="true">
+                <Hierarchy name="Company Info" visible="true" hasAll="true">
                     <Level visible="true" attribute="Company Name" hideMemberIf="Never" />
-                </Hierarchy>
-                <Hierarchy name="Company Number" visible="true" hasAll="true">
                     <Level visible="true" attribute="Company Number" hideMemberIf="Never" />
                 </Hierarchy>
                 <Hierarchy name="Company Type" visible="true" hasAll="true">
-                    <Level visible="true" attribute="Company Type" hideMemberIf="Never" />
-                </Hierarchy>
-                <Hierarchy name="Internal Company Type" visible="true" hasAll="true">
                     <Level visible="true" attribute="Internal Company Type" hideMemberIf="Never" />
+                    <Level visible="true" attribute="Company Type" hideMemberIf="Never" />
                 </Hierarchy>
                 <Hierarchy name="Location" visible="true" hasAll="true">
                     <Level visible="true" attribute="Country" hideMemberIf="Never" />
@@ -431,6 +427,7 @@
                 </Attribute>
                 <Attribute name="Company Number" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
+                        <Column name="company_name" />
                         <Column name="company_number" />
                     </Key>
                     <Name>
@@ -772,17 +769,13 @@
                 </Attribute>
             </Attributes>
             <Hierarchies>
-                <Hierarchy name="Company Name" visible="true" hasAll="true">
+                <Hierarchy name="Company Info" visible="true" hasAll="true">
                     <Level visible="true" attribute="Company Name" hideMemberIf="Never" />
-                </Hierarchy>
-                <Hierarchy name="Company Number" visible="true" hasAll="true">
                     <Level visible="true" attribute="Company Number" hideMemberIf="Never" />
                 </Hierarchy>
                 <Hierarchy name="Company Type" visible="true" hasAll="true">
-                    <Level visible="true" attribute="Company Type" hideMemberIf="Never" />
-                </Hierarchy>
-                <Hierarchy name="Internal Company Type" visible="true" hasAll="true">
                     <Level visible="true" attribute="Internal Company Type" hideMemberIf="Never" />
+                    <Level visible="true" attribute="Company Type" hideMemberIf="Never" />
                 </Hierarchy>
                 <Hierarchy name="Location" visible="true" hasAll="true">
                     <Level visible="true" attribute="Country" hideMemberIf="Never" />
@@ -850,6 +843,7 @@
                 </Attribute>
                 <Attribute name="Product Number" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
+                        <Column name="product_name" />
                         <Column name="product_number" />
                     </Key>
                     <Name>
@@ -1150,10 +1144,8 @@
                 </Attribute>
             </Attributes>
             <Hierarchies>
-                <Hierarchy name="Product Name" visible="true" hasAll="true">
+                <Hierarchy name="Product Info" visible="true" hasAll="true">
                     <Level visible="true" attribute="Product Name" hideMemberIf="Never" />
-                </Hierarchy>
-                <Hierarchy name="Product Number" visible="true" hasAll="true">
                     <Level visible="true" attribute="Product Number" hideMemberIf="Never" />
                 </Hierarchy>
                 <Hierarchy name="GTIN Number" visible="true" hasAll="true">
