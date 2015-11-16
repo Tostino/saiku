@@ -1,5 +1,6 @@
 <Cube name="~CLIENT_DESCRIPTION~ - Sale" visible="true" cache="true" >
     <Dimensions>
+        <Dimension source="Client" visible="false" />
         <Dimension source="Invoice" />
         <Dimension name="Company" visible="true" table="dim_company" key="company_sk" hanger="false">
             <Attributes>
