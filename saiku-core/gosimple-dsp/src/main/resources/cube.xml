@@ -26,7 +26,6 @@
                 </Attribute>
                 <Attribute name="State" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="country" />
                         <Column name="region" />
                     </Key>
                     <Name>
@@ -35,8 +34,6 @@
                 </Attribute>
                 <Attribute name="City" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="country" />
-                        <Column name="region" />
                         <Column name="city" />
                     </Key>
                     <Name>
@@ -45,9 +42,6 @@
                 </Attribute>
                 <Attribute name="Postal Code" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="country" />
-                        <Column name="region" />
-                        <Column name="city" />
                         <Column name="postal_code" />
                     </Key>
                     <Name>
@@ -56,10 +50,6 @@
                 </Attribute>
                 <Attribute name="Address" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="country" />
-                        <Column name="region" />
-                        <Column name="city" />
-                        <Column name="postal_code" />
                         <Column name="address" />
                     </Key>
                     <Name>
@@ -137,7 +127,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
                         <Column name="grouping_02" />
                     </Key>
                     <Name>
@@ -146,8 +135,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
                         <Column name="grouping_03" />
                     </Key>
                     <Name>
@@ -156,9 +143,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
                         <Column name="grouping_04" />
                     </Key>
                     <Name>
@@ -167,10 +151,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
                         <Column name="grouping_05" />
                     </Key>
                     <Name>
@@ -179,11 +159,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
                         <Column name="grouping_06" />
                     </Key>
                     <Name>
@@ -192,12 +167,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
                         <Column name="grouping_07" />
                     </Key>
                     <Name>
@@ -206,13 +175,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
                         <Column name="grouping_08" />
                     </Key>
                     <Name>
@@ -221,14 +183,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
                         <Column name="grouping_09" />
                     </Key>
                     <Name>
@@ -237,15 +191,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
                         <Column name="grouping_10" />
                     </Key>
                     <Name>
@@ -254,16 +199,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
                         <Column name="grouping_11" />
                     </Key>
                     <Name>
@@ -272,17 +207,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
                         <Column name="grouping_12" />
                     </Key>
                     <Name>
@@ -291,18 +215,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
                         <Column name="grouping_13" />
                     </Key>
                     <Name>
@@ -311,19 +223,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
-                        <Column name="grouping_13" />
                         <Column name="grouping_14" />
                     </Key>
                     <Name>
@@ -332,20 +231,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
-                        <Column name="grouping_13" />
-                        <Column name="grouping_14" />
                         <Column name="grouping_15" />
                     </Key>
                     <Name>
@@ -366,11 +251,19 @@
                 <Hierarchy name="Internal Company Type" visible="true" hasAll="true">
                     <Level visible="true" attribute="Internal Company Type" hideMemberIf="Never" />
                 </Hierarchy>
-                <Hierarchy name="Location" visible="true" hasAll="true">
+                <Hierarchy name="Country" visible="true" hasAll="true">
                     <Level visible="true" attribute="Country" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="State" visible="true" hasAll="true">
                     <Level visible="true" attribute="State" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="City" visible="true" hasAll="true">
                     <Level visible="true" attribute="City" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Postal Code" visible="true" hasAll="true">
                     <Level visible="true" attribute="Postal Code" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Address" visible="true" hasAll="true">
                     <Level visible="true" attribute="Address" hideMemberIf="Never" />
                 </Hierarchy>
                 <Hierarchy name="Client Defined Field 01"  visible="~COMPANY_CDF_ENABLED_01~" hasAll="true" caption="~COMPANY_CDF_CAPTION_01~">
@@ -403,26 +296,54 @@
                 <Hierarchy name="Client Defined Field 10"  visible="~COMPANY_CDF_ENABLED_10~" hasAll="true" caption="~COMPANY_CDF_CAPTION_10~">
                     <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="Company Grouping" visible="true" hasAll="true">
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_01~" attribute="Company Grouping 01" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_01~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_02~" attribute="Company Grouping 02" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_02~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_03~" attribute="Company Grouping 03" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_03~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_04~" attribute="Company Grouping 04" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_04~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_05~" attribute="Company Grouping 05" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_05~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_06~" attribute="Company Grouping 06" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_06~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_07~" attribute="Company Grouping 07" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_07~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_08~" attribute="Company Grouping 08" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_08~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_09~" attribute="Company Grouping 09" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_09~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_10~" attribute="Company Grouping 10" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_10~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_11~" attribute="Company Grouping 11" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_11~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_12~" attribute="Company Grouping 12" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_12~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_13~" attribute="Company Grouping 13" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_13~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_14~" attribute="Company Grouping 14" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_14~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_15~" attribute="Company Grouping 15" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_15~" />
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_01~" visible="~COMPANY_GROUPING_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 01" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_02~" visible="~COMPANY_GROUPING_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 02" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_03~" visible="~COMPANY_GROUPING_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 03" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_04~" visible="~COMPANY_GROUPING_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 04" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_05~" visible="~COMPANY_GROUPING_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 05" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_06~" visible="~COMPANY_GROUPING_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 06" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_07~" visible="~COMPANY_GROUPING_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 07" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_08~" visible="~COMPANY_GROUPING_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 08" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_09~" visible="~COMPANY_GROUPING_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 09" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_10~" visible="~COMPANY_GROUPING_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 10" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_11~" visible="~COMPANY_GROUPING_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 11" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_11~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_12~" visible="~COMPANY_GROUPING_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 12" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_12~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_13~" visible="~COMPANY_GROUPING_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 13" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_13~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_14~" visible="~COMPANY_GROUPING_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 14" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_14~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_15~" visible="~COMPANY_GROUPING_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 15" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_15~" />
                 </Hierarchy>
             </Hierarchies>
         </Dimension>
-        <Dimension name="Re-Distributor" visible="true" table="dim_redistributor_company" key="company_sk"  hanger="false">
+        <Dimension name="Company - Re-Distributor" visible="true" table="dim_redistributor_company" key="company_sk"  hanger="false">
             <Attributes>
                 <Attribute name="company_sk" levelType="Regular" keyColumn="company_sk" hasHierarchy="false" />
                 <Attribute name="Company Name" levelType="Regular" datatype="String" hasHierarchy="false">
@@ -445,7 +366,6 @@
                 </Attribute>
                 <Attribute name="State" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="country" />
                         <Column name="region" />
                     </Key>
                     <Name>
@@ -454,8 +374,6 @@
                 </Attribute>
                 <Attribute name="City" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="country" />
-                        <Column name="region" />
                         <Column name="city" />
                     </Key>
                     <Name>
@@ -464,9 +382,6 @@
                 </Attribute>
                 <Attribute name="Postal Code" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="country" />
-                        <Column name="region" />
-                        <Column name="city" />
                         <Column name="postal_code" />
                     </Key>
                     <Name>
@@ -475,10 +390,6 @@
                 </Attribute>
                 <Attribute name="Address" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="country" />
-                        <Column name="region" />
-                        <Column name="city" />
-                        <Column name="postal_code" />
                         <Column name="address" />
                     </Key>
                     <Name>
@@ -556,7 +467,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
                         <Column name="grouping_02" />
                     </Key>
                     <Name>
@@ -565,8 +475,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
                         <Column name="grouping_03" />
                     </Key>
                     <Name>
@@ -575,9 +483,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
                         <Column name="grouping_04" />
                     </Key>
                     <Name>
@@ -586,10 +491,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
                         <Column name="grouping_05" />
                     </Key>
                     <Name>
@@ -598,11 +499,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
                         <Column name="grouping_06" />
                     </Key>
                     <Name>
@@ -611,12 +507,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
                         <Column name="grouping_07" />
                     </Key>
                     <Name>
@@ -625,13 +515,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
                         <Column name="grouping_08" />
                     </Key>
                     <Name>
@@ -640,14 +523,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
                         <Column name="grouping_09" />
                     </Key>
                     <Name>
@@ -656,15 +531,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
                         <Column name="grouping_10" />
                     </Key>
                     <Name>
@@ -673,16 +539,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
                         <Column name="grouping_11" />
                     </Key>
                     <Name>
@@ -691,17 +547,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
                         <Column name="grouping_12" />
                     </Key>
                     <Name>
@@ -710,18 +555,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
                         <Column name="grouping_13" />
                     </Key>
                     <Name>
@@ -730,19 +563,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
-                        <Column name="grouping_13" />
                         <Column name="grouping_14" />
                     </Key>
                     <Name>
@@ -751,20 +571,6 @@
                 </Attribute>
                 <Attribute name="Company Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
-                        <Column name="grouping_13" />
-                        <Column name="grouping_14" />
                         <Column name="grouping_15" />
                     </Key>
                     <Name>
@@ -785,11 +591,19 @@
                 <Hierarchy name="Internal Company Type" visible="true" hasAll="true">
                     <Level visible="true" attribute="Internal Company Type" hideMemberIf="Never" />
                 </Hierarchy>
-                <Hierarchy name="Location" visible="true" hasAll="true">
+                <Hierarchy name="Country" visible="true" hasAll="true">
                     <Level visible="true" attribute="Country" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="State" visible="true" hasAll="true">
                     <Level visible="true" attribute="State" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="City" visible="true" hasAll="true">
                     <Level visible="true" attribute="City" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Postal Code" visible="true" hasAll="true">
                     <Level visible="true" attribute="Postal Code" hideMemberIf="Never" />
+                </Hierarchy>
+                <Hierarchy name="Address" visible="true" hasAll="true">
                     <Level visible="true" attribute="Address" hideMemberIf="Never" />
                 </Hierarchy>
                 <Hierarchy name="Client Defined Field 01"  visible="~COMPANY_CDF_ENABLED_01~" hasAll="true" caption="~COMPANY_CDF_CAPTION_01~">
@@ -822,22 +636,50 @@
                 <Hierarchy name="Client Defined Field 10"  visible="~COMPANY_CDF_ENABLED_10~" hasAll="true" caption="~COMPANY_CDF_CAPTION_10~">
                     <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="Company Grouping" visible="true" hasAll="true">
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_01~" attribute="Company Grouping 01" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_01~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_02~" attribute="Company Grouping 02" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_02~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_03~" attribute="Company Grouping 03" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_03~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_04~" attribute="Company Grouping 04" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_04~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_05~" attribute="Company Grouping 05" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_05~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_06~" attribute="Company Grouping 06" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_06~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_07~" attribute="Company Grouping 07" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_07~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_08~" attribute="Company Grouping 08" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_08~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_09~" attribute="Company Grouping 09" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_09~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_10~" attribute="Company Grouping 10" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_10~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_11~" attribute="Company Grouping 11" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_11~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_12~" attribute="Company Grouping 12" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_12~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_13~" attribute="Company Grouping 13" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_13~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_14~" attribute="Company Grouping 14" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_14~" />
-                    <Level  visible="~COMPANY_GROUPING_ENABLED_15~" attribute="Company Grouping 15" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_15~" />
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_01~" visible="~COMPANY_GROUPING_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 01" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_02~" visible="~COMPANY_GROUPING_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 02" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_03~" visible="~COMPANY_GROUPING_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 03" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_04~" visible="~COMPANY_GROUPING_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 04" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_05~" visible="~COMPANY_GROUPING_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 05" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_06~" visible="~COMPANY_GROUPING_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 06" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_07~" visible="~COMPANY_GROUPING_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 07" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_08~" visible="~COMPANY_GROUPING_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 08" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_09~" visible="~COMPANY_GROUPING_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 09" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_10~" visible="~COMPANY_GROUPING_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 10" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_11~" visible="~COMPANY_GROUPING_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 11" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_11~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_12~" visible="~COMPANY_GROUPING_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 12" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_12~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_13~" visible="~COMPANY_GROUPING_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 13" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_13~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_14~" visible="~COMPANY_GROUPING_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 14" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_14~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_GROUPING_CAPTION_15~" visible="~COMPANY_GROUPING_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Company Grouping 15" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_15~" />
                 </Hierarchy>
             </Hierarchies>
         </Dimension>
@@ -934,7 +776,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
                         <Column name="grouping_02" />
                     </Key>
                     <Name>
@@ -943,8 +784,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
                         <Column name="grouping_03" />
                     </Key>
                     <Name>
@@ -953,9 +792,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
                         <Column name="grouping_04" />
                     </Key>
                     <Name>
@@ -964,10 +800,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
                         <Column name="grouping_05" />
                     </Key>
                     <Name>
@@ -976,11 +808,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
                         <Column name="grouping_06" />
                     </Key>
                     <Name>
@@ -989,12 +816,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
                         <Column name="grouping_07" />
                     </Key>
                     <Name>
@@ -1003,13 +824,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
                         <Column name="grouping_08" />
                     </Key>
                     <Name>
@@ -1018,14 +832,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
                         <Column name="grouping_09" />
                     </Key>
                     <Name>
@@ -1034,15 +840,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
                         <Column name="grouping_10" />
                     </Key>
                     <Name>
@@ -1051,16 +848,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
                         <Column name="grouping_11" />
                     </Key>
                     <Name>
@@ -1069,17 +856,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
                         <Column name="grouping_12" />
                     </Key>
                     <Name>
@@ -1088,18 +864,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
                         <Column name="grouping_13" />
                     </Key>
                     <Name>
@@ -1108,19 +872,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
-                        <Column name="grouping_13" />
                         <Column name="grouping_14" />
                     </Key>
                     <Name>
@@ -1129,20 +880,6 @@
                 </Attribute>
                 <Attribute name="Product Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                        <Column name="grouping_02" />
-                        <Column name="grouping_03" />
-                        <Column name="grouping_04" />
-                        <Column name="grouping_05" />
-                        <Column name="grouping_06" />
-                        <Column name="grouping_07" />
-                        <Column name="grouping_08" />
-                        <Column name="grouping_09" />
-                        <Column name="grouping_10" />
-                        <Column name="grouping_11" />
-                        <Column name="grouping_12" />
-                        <Column name="grouping_13" />
-                        <Column name="grouping_14" />
                         <Column name="grouping_15" />
                     </Key>
                     <Name>
@@ -1199,26 +936,57 @@
                 <Hierarchy name="Client Defined Field 10"  visible="~PRODUCT_CDF_ENABLED_10~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_10~">
                     <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="Product Grouping" visible="true" hasAll="true">
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_01~" attribute="Product Grouping 01" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_01~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_02~" attribute="Product Grouping 02" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_02~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_03~" attribute="Product Grouping 03" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_03~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_04~" attribute="Product Grouping 04" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_04~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_05~" attribute="Product Grouping 05" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_05~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_06~" attribute="Product Grouping 06" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_06~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_07~" attribute="Product Grouping 07" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_07~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_08~" attribute="Product Grouping 08" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_08~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_09~" attribute="Product Grouping 09" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_09~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_10~" attribute="Product Grouping 10" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_10~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_11~" attribute="Product Grouping 11" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_11~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_12~" attribute="Product Grouping 12" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_12~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_13~" attribute="Product Grouping 13" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_13~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_14~" attribute="Product Grouping 14" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_14~" />
-                    <Level  visible="~PRODUCT_GROUPING_ENABLED_15~" attribute="Product Grouping 15" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_15~" />
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_01~" visible="~PRODUCT_GROUPING_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 01" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_02~" visible="~PRODUCT_GROUPING_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 02" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_03~" visible="~PRODUCT_GROUPING_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 03" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_04~" visible="~PRODUCT_GROUPING_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 04" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_05~" visible="~PRODUCT_GROUPING_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 05" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_06~" visible="~PRODUCT_GROUPING_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 06" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_07~" visible="~PRODUCT_GROUPING_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 07" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_08~" visible="~PRODUCT_GROUPING_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 08" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_09~" visible="~PRODUCT_GROUPING_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 09" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_10~" visible="~PRODUCT_GROUPING_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 10" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_11~" visible="~PRODUCT_GROUPING_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 11" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_11~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_12~" visible="~PRODUCT_GROUPING_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 12" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_12~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_13~" visible="~PRODUCT_GROUPING_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 13" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_13~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_14~" visible="~PRODUCT_GROUPING_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 14" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_14~" />
+                </Hierarchy>
+                <Hierarchy name="~PRODUCT_GROUPING_CAPTION_15~" visible="~PRODUCT_GROUPING_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Product Grouping 15" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_15~" />
                 </Hierarchy>
             </Hierarchies>
         </Dimension>
-        <Dimension source="Time" />
+        <Dimension source="Time" name="Time" />
+        <Dimension source="Time" name="Time - Invoice Date" />
+        <Dimension source="Time" name="Time - Order Date" />
+        <Dimension source="Time" name="Time - Ship Date" />
     </Dimensions>
     <MeasureGroups>
         <MeasureGroup name="Sales" type="fact" table="fact_sale_view">
@@ -1305,7 +1073,7 @@
                         <Column name="company_sk" />
                     </ForeignKey>
                 </ForeignKeyLink>
-                <ForeignKeyLink dimension="Re-Distributor">
+                <ForeignKeyLink dimension="Company - Re-Distributor">
                     <ForeignKey>
                         <Column name="redistributor_company_sk" />
                     </ForeignKey>
@@ -1318,6 +1086,25 @@
                 <ForeignKeyLink dimension="Time">
                     <ForeignKey>
                         <Column name="sale_reporting_date" />
+                        <Column name="client_sk" />
+                    </ForeignKey>
+                </ForeignKeyLink>
+                <ForeignKeyLink dimension="Time - Invoice Date">
+                    <ForeignKey>
+                        <Column name="invoice_date" />
+                        <Column name="client_sk" />
+                    </ForeignKey>
+                </ForeignKeyLink>
+                <ForeignKeyLink dimension="Time - Order Date">
+                    <ForeignKey>
+                        <Column name="order_date" />
+                        <Column name="client_sk" />
+                    </ForeignKey>
+                </ForeignKeyLink>
+                <ForeignKeyLink dimension="Time - Ship Date">
+                    <ForeignKey>
+                        <Column name="ship_date" />
+                        <Column name="client_sk" />
                     </ForeignKey>
                 </ForeignKeyLink>
                 <FactLink dimension="Direct-Indirect" />
