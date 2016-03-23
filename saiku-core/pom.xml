@@ -47,6 +47,7 @@
                     <encoding>UTF-8</encoding>
                     <verbose>false</verbose>
                     <quiet>true</quiet>
+                    <failOnError>false</failOnError>
                 </configuration>
                 <executions>
                     <execution>

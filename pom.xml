@@ -18,8 +18,10 @@
         <module>saiku-ui</module>
         <module>saiku-webapp</module>
         <module>saiku-server</module>
+        <!--
         <module>saiku-bi-platform-plugin-p5</module>
         <module>saiku-bi-platform-plugin-p6</module>
+        -->
     </modules>
 
     <distributionManagement>
@@ -329,7 +331,7 @@
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
                 <!-- GoSimple - Update to more recent driver -->
-                <version>9.4-1201-jdbc41</version>
+                <version>9.4.1208</version>
                 <!--
                 <version>9.3-1102-jdbc41</version>
                 -->
@@ -683,12 +685,12 @@
             <dependency>
                 <groupId>org.saiku</groupId>
                 <artifactId>saiku-query</artifactId>
-                <version>0.4-SNAPSHOT</version>
+                <version>0.1-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>pentaho</groupId>
                 <artifactId>mondrian</artifactId>
-                <version>4.3.0.1.1-SPARK</version>
+                <version>4.3.0.1-SPARK</version>
             </dependency>
             <!-- Spring modules -->
             <dependency>
@@ -987,7 +989,7 @@
             <dependency>
                 <groupId>org.apache.pdfbox</groupId>
                 <artifactId>pdfbox-app</artifactId>
-                <version>2.0.0-SNAPSHOT</version>
+                <version>2.0.0</version>
             </dependency>
             <dependency>
                 <groupId>pentaho</groupId>

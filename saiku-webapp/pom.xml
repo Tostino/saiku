@@ -208,7 +208,7 @@
         <dependency>
             <groupId>org.saikuanalytics</groupId>
             <artifactId>gosimple-dsp</artifactId>
-            <version>3.7.4</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.saikuanalytics</groupId>
@@ -308,6 +308,7 @@
             <artifactId>spring-security-ldap</artifactId>
             <version>4.0.1.RELEASE</version>
         </dependency>
+
     </dependencies>
     <reporting>
         <plugins>
