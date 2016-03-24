@@ -76,7 +76,7 @@ var SplashScreen = Backbone.View.extend({
     },
     template: function() {
 		// GoSimple - Change splash screen.
-		var template = $("<div><div id='splash'><nav><ul><li class='active'><a class='welcome' href='#'>Welcome</a></li></ul><h2>Explore Data. Visualise. Act.</h2></nav><section class='tabs'><section style='margin-top:50px' id='welcome'><h1 class='gosimple_logo'>GoSimple</h1><p>Welcome to the GoSimple pivot reporting tool. Where all your dreams come true. </p></section></section></div></div>").html() || "";
+		var template = $("<div><div id='splash'><nav><ul><li class='active'><a class='welcome head' href='#'>Welcome</a></li></ul><h2>Explore Data. Visualise. Act.</h2></nav><section class='stabs' style='width:100%'><section style='margin-top:50px;margin-left:50px' id='welcome'><h1 class='gosimple_logo'>GoSimple</h1><p>Welcome to the GoSimple pivot reporting tool. Where all your dreams come true. </p></section></section></div></div>").html() || "";
 
 		/*
         var template = $("<div> <div id='splash'> <nav> <ul> <li class='active'><a class='welcome head'" +
