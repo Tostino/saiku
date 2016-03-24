@@ -30,8 +30,8 @@ var Settings = {
     TOMCAT_WEBAPP: "/saiku",
     REST_MOUNT_POINT: "/rest/saiku/",
     DIMENSION_PREFETCH: true,
-    DIMENSION_SHOW_ALL: true,
-    DIMENSION_SHOW_REDUCED: false,
+    DIMENSION_SHOW_ALL: false,
+    DIMENSION_SHOW_REDUCED: true,
     ERROR_LOGGING: false,
     I18N_LOCALE: "en",
     // number of erroneous ajax calls in a row before UI cant recover
