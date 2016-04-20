@@ -120,121 +120,363 @@
                         <Column name="attribute_10" />
                     </Key>
                 </Attribute>
-                <Attribute name="Company Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                    </Key>
-                </Attribute>
-                <Attribute name="Company Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
-                    <Key>
-                        <Column name="grouping_02" />
+                        <Column name="claim_visibility_grouping_01" />
                     </Key>
                     <Name>
-                        <Column name="grouping_02" />
+                        <Column name="claim_visibility_grouping_01" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_03" />
+                        <Column name="claim_visibility_grouping_02" />
                     </Key>
                     <Name>
-                        <Column name="grouping_03" />
+                        <Column name="claim_visibility_grouping_02" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_04" />
+                        <Column name="claim_visibility_grouping_03" />
                     </Key>
                     <Name>
-                        <Column name="grouping_04" />
+                        <Column name="claim_visibility_grouping_03" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_05" />
+                        <Column name="claim_visibility_grouping_04" />
                     </Key>
                     <Name>
-                        <Column name="grouping_05" />
+                        <Column name="claim_visibility_grouping_04" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_06" />
+                        <Column name="claim_visibility_grouping_05" />
                     </Key>
                     <Name>
-                        <Column name="grouping_06" />
+                        <Column name="claim_visibility_grouping_05" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_07" />
+                        <Column name="claim_visibility_grouping_06" />
                     </Key>
                     <Name>
-                        <Column name="grouping_07" />
+                        <Column name="claim_visibility_grouping_06" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_08" />
+                        <Column name="claim_visibility_grouping_07" />
                     </Key>
                     <Name>
-                        <Column name="grouping_08" />
+                        <Column name="claim_visibility_grouping_07" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_09" />
+                        <Column name="claim_visibility_grouping_08" />
                     </Key>
                     <Name>
-                        <Column name="grouping_09" />
+                        <Column name="claim_visibility_grouping_08" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_10" />
+                        <Column name="claim_visibility_grouping_09" />
                     </Key>
                     <Name>
-                        <Column name="grouping_10" />
+                        <Column name="claim_visibility_grouping_09" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_11" />
+                        <Column name="claim_visibility_grouping_10" />
                     </Key>
                     <Name>
-                        <Column name="grouping_11" />
+                        <Column name="claim_visibility_grouping_10" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_12" />
+                        <Column name="claim_visibility_grouping_11" />
                     </Key>
                     <Name>
-                        <Column name="grouping_12" />
+                        <Column name="claim_visibility_grouping_11" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_13" />
+                        <Column name="claim_visibility_grouping_12" />
                     </Key>
                     <Name>
-                        <Column name="grouping_13" />
+                        <Column name="claim_visibility_grouping_12" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_14" />
+                        <Column name="claim_visibility_grouping_13" />
                     </Key>
                     <Name>
-                        <Column name="grouping_14" />
+                        <Column name="claim_visibility_grouping_13" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_15" />
+                        <Column name="claim_visibility_grouping_14" />
                     </Key>
                     <Name>
-                        <Column name="grouping_15" />
+                        <Column name="claim_visibility_grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Claim Visibility Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="claim_visibility_grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="claim_visibility_grouping_15" />
+                    </Name>
+                </Attribute>
+
+                <Attribute name="Parent Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_01" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Parent Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_02" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_02" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_03" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_03" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_04" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_04" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_05" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_05" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_06" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_06" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_07" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_07" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_08" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_08" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_09" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_09" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_10" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_10" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_11" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_11" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_12" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_12" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_13" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_13" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_14" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_15" />
+                    </Name>
+                </Attribute>
+
+                <Attribute name="Buying Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_01" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_01" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_02" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_02" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_03" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_03" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_04" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_04" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_05" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_05" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_06" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_06" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_07" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_07" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_08" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_08" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_09" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_09" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_10" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_10" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_11" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_11" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_12" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_12" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_13" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_13" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_14" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_15" />
                     </Name>
                 </Attribute>
             </Attributes>
@@ -296,50 +538,140 @@
                 <Hierarchy name="Client Defined Field 10"  visible="~COMPANY_CDF_ENABLED_10~" hasAll="true" caption="~COMPANY_CDF_CAPTION_10~">
                     <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_01~" visible="~COMPANY_GROUPING_ENABLED_01~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 01" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_01~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_01~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 01" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_01~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_02~" visible="~COMPANY_GROUPING_ENABLED_02~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 02" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_02~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_02~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 02" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_02~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_03~" visible="~COMPANY_GROUPING_ENABLED_03~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 03" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_03~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_03~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 03" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_03~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_04~" visible="~COMPANY_GROUPING_ENABLED_04~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 04" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_04~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_04~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 04" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_04~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_05~" visible="~COMPANY_GROUPING_ENABLED_05~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 05" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_05~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_05~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 05" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_05~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_06~" visible="~COMPANY_GROUPING_ENABLED_06~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 06" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_06~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_06~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 06" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_06~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_07~" visible="~COMPANY_GROUPING_ENABLED_07~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 07" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_07~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_07~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 07" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_07~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_08~" visible="~COMPANY_GROUPING_ENABLED_08~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 08" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_08~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_08~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 08" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_08~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_09~" visible="~COMPANY_GROUPING_ENABLED_09~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 09" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_09~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_09~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 09" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_09~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_10~" visible="~COMPANY_GROUPING_ENABLED_10~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 10" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_10~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_10~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 10" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_11~" visible="~COMPANY_GROUPING_ENABLED_11~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 11" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_11~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_11~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 11" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_11~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_12~" visible="~COMPANY_GROUPING_ENABLED_12~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 12" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_12~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_12~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 12" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_12~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_13~" visible="~COMPANY_GROUPING_ENABLED_13~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 13" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_13~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_13~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 13" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_13~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_14~" visible="~COMPANY_GROUPING_ENABLED_14~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 14" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_14~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_14~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 14" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_14~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_15~" visible="~COMPANY_GROUPING_ENABLED_15~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 15" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_15~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_15~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 15" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_15~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_01~" visible="~COMPANY_PARENT_GROUPING_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 01" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_02~" visible="~COMPANY_PARENT_GROUPING_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 02" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_03~" visible="~COMPANY_PARENT_GROUPING_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 03" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_04~" visible="~COMPANY_PARENT_GROUPING_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 04" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_05~" visible="~COMPANY_PARENT_GROUPING_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 05" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_06~" visible="~COMPANY_PARENT_GROUPING_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 06" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_07~" visible="~COMPANY_PARENT_GROUPING_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 07" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_08~" visible="~COMPANY_PARENT_GROUPING_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 08" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_09~" visible="~COMPANY_PARENT_GROUPING_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 09" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_10~" visible="~COMPANY_PARENT_GROUPING_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 10" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_11~" visible="~COMPANY_PARENT_GROUPING_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 11" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_11~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_12~" visible="~COMPANY_PARENT_GROUPING_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 12" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_12~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_13~" visible="~COMPANY_PARENT_GROUPING_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 13" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_13~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_14~" visible="~COMPANY_PARENT_GROUPING_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 14" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_14~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_15~" visible="~COMPANY_PARENT_GROUPING_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 15" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_15~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_01~" visible="~COMPANY_BUYING_GROUPING_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 01" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_02~" visible="~COMPANY_BUYING_GROUPING_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 02" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_03~" visible="~COMPANY_BUYING_GROUPING_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 03" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_04~" visible="~COMPANY_BUYING_GROUPING_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 04" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_05~" visible="~COMPANY_BUYING_GROUPING_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 05" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_06~" visible="~COMPANY_BUYING_GROUPING_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 06" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_07~" visible="~COMPANY_BUYING_GROUPING_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 07" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_08~" visible="~COMPANY_BUYING_GROUPING_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 08" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_09~" visible="~COMPANY_BUYING_GROUPING_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 09" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_10~" visible="~COMPANY_BUYING_GROUPING_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 10" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_11~" visible="~COMPANY_BUYING_GROUPING_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 11" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_11~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_12~" visible="~COMPANY_BUYING_GROUPING_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 12" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_12~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_13~" visible="~COMPANY_BUYING_GROUPING_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 13" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_13~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_14~" visible="~COMPANY_BUYING_GROUPING_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 14" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_14~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_15~" visible="~COMPANY_BUYING_GROUPING_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 15" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_15~" />
                 </Hierarchy>
             </Hierarchies>
         </Dimension>
@@ -460,121 +792,363 @@
                         <Column name="attribute_10" />
                     </Key>
                 </Attribute>
-                <Attribute name="Company Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_01" />
-                    </Key>
-                </Attribute>
-                <Attribute name="Company Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
-                    <Key>
-                        <Column name="grouping_02" />
+                        <Column name="claim_visibility_grouping_01" />
                     </Key>
                     <Name>
-                        <Column name="grouping_02" />
+                        <Column name="claim_visibility_grouping_01" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_03" />
+                        <Column name="claim_visibility_grouping_02" />
                     </Key>
                     <Name>
-                        <Column name="grouping_03" />
+                        <Column name="claim_visibility_grouping_02" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_04" />
+                        <Column name="claim_visibility_grouping_03" />
                     </Key>
                     <Name>
-                        <Column name="grouping_04" />
+                        <Column name="claim_visibility_grouping_03" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_05" />
+                        <Column name="claim_visibility_grouping_04" />
                     </Key>
                     <Name>
-                        <Column name="grouping_05" />
+                        <Column name="claim_visibility_grouping_04" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_06" />
+                        <Column name="claim_visibility_grouping_05" />
                     </Key>
                     <Name>
-                        <Column name="grouping_06" />
+                        <Column name="claim_visibility_grouping_05" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_07" />
+                        <Column name="claim_visibility_grouping_06" />
                     </Key>
                     <Name>
-                        <Column name="grouping_07" />
+                        <Column name="claim_visibility_grouping_06" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_08" />
+                        <Column name="claim_visibility_grouping_07" />
                     </Key>
                     <Name>
-                        <Column name="grouping_08" />
+                        <Column name="claim_visibility_grouping_07" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_09" />
+                        <Column name="claim_visibility_grouping_08" />
                     </Key>
                     <Name>
-                        <Column name="grouping_09" />
+                        <Column name="claim_visibility_grouping_08" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_10" />
+                        <Column name="claim_visibility_grouping_09" />
                     </Key>
                     <Name>
-                        <Column name="grouping_10" />
+                        <Column name="claim_visibility_grouping_09" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_11" />
+                        <Column name="claim_visibility_grouping_10" />
                     </Key>
                     <Name>
-                        <Column name="grouping_11" />
+                        <Column name="claim_visibility_grouping_10" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_12" />
+                        <Column name="claim_visibility_grouping_11" />
                     </Key>
                     <Name>
-                        <Column name="grouping_12" />
+                        <Column name="claim_visibility_grouping_11" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_13" />
+                        <Column name="claim_visibility_grouping_12" />
                     </Key>
                     <Name>
-                        <Column name="grouping_13" />
+                        <Column name="claim_visibility_grouping_12" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_14" />
+                        <Column name="claim_visibility_grouping_13" />
                     </Key>
                     <Name>
-                        <Column name="grouping_14" />
+                        <Column name="claim_visibility_grouping_13" />
                     </Name>
                 </Attribute>
-                <Attribute name="Company Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Attribute name="Claim Visibility Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
                     <Key>
-                        <Column name="grouping_15" />
+                        <Column name="claim_visibility_grouping_14" />
                     </Key>
                     <Name>
-                        <Column name="grouping_15" />
+                        <Column name="claim_visibility_grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Claim Visibility Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="claim_visibility_grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="claim_visibility_grouping_15" />
+                    </Name>
+                </Attribute>
+
+                <Attribute name="Parent Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_01" />
+                    </Key>
+                </Attribute>
+                <Attribute name="Parent Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_02" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_02" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_03" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_03" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_04" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_04" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_05" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_05" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_06" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_06" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_07" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_07" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_08" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_08" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_09" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_09" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_10" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_10" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_11" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_11" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_12" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_12" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_13" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_13" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_14" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Parent Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="parent_grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="parent_grouping_15" />
+                    </Name>
+                </Attribute>
+
+                <Attribute name="Buying Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_01" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_01" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_02" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_02" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_03" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_03" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_04" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_04" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_05" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_05" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_06" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_06" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_07" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_07" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_08" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_08" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_09" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_09" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_10" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_10" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_11" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_11" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_12" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_12" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_13" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_13" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_14" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_14" />
+                    </Name>
+                </Attribute>
+                <Attribute name="Buying Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                    <Key>
+                        <Column name="buying_grouping_15" />
+                    </Key>
+                    <Name>
+                        <Column name="buying_grouping_15" />
                     </Name>
                 </Attribute>
             </Attributes>
@@ -636,50 +1210,140 @@
                 <Hierarchy name="Client Defined Field 10"  visible="~COMPANY_CDF_ENABLED_10~" hasAll="true" caption="~COMPANY_CDF_CAPTION_10~">
                     <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_01~" visible="~COMPANY_GROUPING_ENABLED_01~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 01" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_01~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_01~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 01" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_01~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_02~" visible="~COMPANY_GROUPING_ENABLED_02~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 02" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_02~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_02~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 02" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_02~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_03~" visible="~COMPANY_GROUPING_ENABLED_03~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 03" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_03~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_03~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 03" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_03~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_04~" visible="~COMPANY_GROUPING_ENABLED_04~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 04" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_04~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_04~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 04" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_04~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_05~" visible="~COMPANY_GROUPING_ENABLED_05~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 05" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_05~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_05~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 05" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_05~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_06~" visible="~COMPANY_GROUPING_ENABLED_06~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 06" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_06~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_06~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 06" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_06~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_07~" visible="~COMPANY_GROUPING_ENABLED_07~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 07" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_07~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_07~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 07" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_07~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_08~" visible="~COMPANY_GROUPING_ENABLED_08~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 08" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_08~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_08~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 08" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_08~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_09~" visible="~COMPANY_GROUPING_ENABLED_09~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 09" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_09~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_09~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 09" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_09~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_10~" visible="~COMPANY_GROUPING_ENABLED_10~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 10" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_10~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_10~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 10" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_11~" visible="~COMPANY_GROUPING_ENABLED_11~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 11" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_11~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_11~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 11" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_11~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_12~" visible="~COMPANY_GROUPING_ENABLED_12~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 12" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_12~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_12~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 12" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_12~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_13~" visible="~COMPANY_GROUPING_ENABLED_13~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 13" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_13~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_13~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 13" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_13~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_14~" visible="~COMPANY_GROUPING_ENABLED_14~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 14" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_14~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_14~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 14" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_14~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_GROUPING_CAPTION_15~" visible="~COMPANY_GROUPING_ENABLED_15~" hasAll="true">
-                    <Level  visible="true" attribute="Company Grouping 15" hideMemberIf="Never" caption="~COMPANY_GROUPING_CAPTION_15~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_15~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 15" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_15~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_01~" visible="~COMPANY_PARENT_GROUPING_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 01" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_02~" visible="~COMPANY_PARENT_GROUPING_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 02" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_03~" visible="~COMPANY_PARENT_GROUPING_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 03" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_04~" visible="~COMPANY_PARENT_GROUPING_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 04" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_05~" visible="~COMPANY_PARENT_GROUPING_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 05" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_06~" visible="~COMPANY_PARENT_GROUPING_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 06" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_07~" visible="~COMPANY_PARENT_GROUPING_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 07" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_08~" visible="~COMPANY_PARENT_GROUPING_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 08" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_09~" visible="~COMPANY_PARENT_GROUPING_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 09" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_10~" visible="~COMPANY_PARENT_GROUPING_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 10" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_11~" visible="~COMPANY_PARENT_GROUPING_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 11" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_11~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_12~" visible="~COMPANY_PARENT_GROUPING_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 12" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_12~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_13~" visible="~COMPANY_PARENT_GROUPING_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 13" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_13~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_14~" visible="~COMPANY_PARENT_GROUPING_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 14" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_14~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_15~" visible="~COMPANY_PARENT_GROUPING_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Parent Grouping 15" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_15~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_01~" visible="~COMPANY_BUYING_GROUPING_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 01" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_01~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_02~" visible="~COMPANY_BUYING_GROUPING_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 02" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_02~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_03~" visible="~COMPANY_BUYING_GROUPING_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 03" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_03~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_04~" visible="~COMPANY_BUYING_GROUPING_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 04" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_04~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_05~" visible="~COMPANY_BUYING_GROUPING_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 05" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_05~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_06~" visible="~COMPANY_BUYING_GROUPING_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 06" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_06~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_07~" visible="~COMPANY_BUYING_GROUPING_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 07" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_07~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_08~" visible="~COMPANY_BUYING_GROUPING_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 08" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_08~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_09~" visible="~COMPANY_BUYING_GROUPING_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 09" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_09~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_10~" visible="~COMPANY_BUYING_GROUPING_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 10" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_10~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_11~" visible="~COMPANY_BUYING_GROUPING_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 11" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_11~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_12~" visible="~COMPANY_BUYING_GROUPING_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 12" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_12~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_13~" visible="~COMPANY_BUYING_GROUPING_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 13" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_13~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_14~" visible="~COMPANY_BUYING_GROUPING_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 14" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_14~" />
+                </Hierarchy>
+                <Hierarchy name="~COMPANY_BUYING_GROUPING_CAPTION_15~" visible="~COMPANY_BUYING_GROUPING_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Buying Grouping 15" hideMemberIf="Never" caption="~COMPANY_BUYING_GROUPING_CAPTION_15~" />
                 </Hierarchy>
             </Hierarchies>
         </Dimension>
