@@ -538,50 +538,50 @@
                 <Hierarchy name="Client Defined Field 10"  visible="~COMPANY_CDF_ENABLED_10~" hasAll="true" caption="~COMPANY_CDF_CAPTION_10~">
                     <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_01~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_01~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 01" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_01~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_01~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 01" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_01~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_02~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_02~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 02" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_02~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_02~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 02" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_02~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_03~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_03~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 03" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_03~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_03~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 03" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_03~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_04~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_04~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 04" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_04~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_04~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 04" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_04~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_05~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_05~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 05" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_05~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_05~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 05" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_05~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_06~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_06~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 06" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_06~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_06~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 06" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_06~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_07~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_07~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 07" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_07~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_07~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 07" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_07~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_08~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_08~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 08" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_08~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_08~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 08" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_08~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_09~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_09~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 09" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_09~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_09~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 09" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_09~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_10~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_10~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 10" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_10~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_10~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 10" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_11~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_11~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 11" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_11~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_11~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 11" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_11~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_12~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_12~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 12" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_12~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_12~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 12" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_12~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_13~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_13~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 13" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_13~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_13~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 13" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_13~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_14~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_14~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 14" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_14~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_14~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 14" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_14~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_15~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_15~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 15" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_15~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_15~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 15" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_15~" />
                 </Hierarchy>
                 <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_01~" visible="~COMPANY_PARENT_GROUPING_ENABLED_01~" hasAll="true">
                     <Level  visible="true" attribute="Parent Grouping 01" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_01~" />
@@ -1210,50 +1210,50 @@
                 <Hierarchy name="Client Defined Field 10"  visible="~COMPANY_CDF_ENABLED_10~" hasAll="true" caption="~COMPANY_CDF_CAPTION_10~">
                     <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~COMPANY_CDF_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_01~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_01~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 01" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_01~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_01~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_01~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 01" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_01~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_02~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_02~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 02" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_02~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_02~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_02~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 02" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_02~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_03~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_03~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 03" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_03~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_03~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_03~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 03" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_03~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_04~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_04~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 04" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_04~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_04~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_04~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 04" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_04~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_05~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_05~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 05" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_05~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_05~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_05~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 05" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_05~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_06~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_06~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 06" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_06~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_06~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_06~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 06" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_06~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_07~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_07~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 07" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_07~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_07~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_07~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 07" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_07~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_08~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_08~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 08" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_08~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_08~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_08~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 08" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_08~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_09~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_09~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 09" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_09~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_09~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_09~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 09" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_09~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_10~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_10~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 10" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_10~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_10~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_10~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 10" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_10~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_11~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_11~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 11" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_11~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_11~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_11~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 11" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_11~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_12~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_12~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 12" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_12~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_12~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_12~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 12" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_12~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_13~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_13~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 13" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_13~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_13~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_13~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 13" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_13~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_14~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_14~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 14" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_14~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_14~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_14~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 14" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_14~" />
                 </Hierarchy>
-                <Hierarchy name="~COMPANY_CLAIM_VISIBLILTY_CAPTION_15~" visible="~COMPANY_CLAIM_VISIBLILTY_ENABLED_15~" hasAll="true">
-                    <Level  visible="true" attribute="Claim Visibility Grouping 15" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBLILTY_CAPTION_15~" />
+                <Hierarchy name="~COMPANY_CLAIM_VISIBILITY_CAPTION_15~" visible="~COMPANY_CLAIM_VISIBILITY_ENABLED_15~" hasAll="true">
+                    <Level  visible="true" attribute="Claim Visibility Grouping 15" hideMemberIf="Never" caption="~COMPANY_CLAIM_VISIBILITY_CAPTION_15~" />
                 </Hierarchy>
                 <Hierarchy name="~COMPANY_PARENT_GROUPING_CAPTION_01~" visible="~COMPANY_PARENT_GROUPING_ENABLED_01~" hasAll="true">
                     <Level  visible="true" attribute="Parent Grouping 01" hideMemberIf="Never" caption="~COMPANY_PARENT_GROUPING_CAPTION_01~" />
