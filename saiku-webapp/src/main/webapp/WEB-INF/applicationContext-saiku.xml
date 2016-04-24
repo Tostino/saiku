@@ -29,6 +29,8 @@
   <!-- BASIC AUTHENTICATION -->
     <security:http pattern="/rest/saiku/info" security="none">
     </security:http>
+    <security:http pattern="/rest/saiku/statistics/mondrian/clear" security="none">
+    </security:http>
     <security:http pattern="/rest/saiku/info/ui-settings" security="none">
     </security:http>
     <security:http pattern="/repository/**" security="none">
@@ -40,8 +42,8 @@
       	<security:intercept-url pattern="/rest/saiku/session/" access="isAnonymous() or isFullyAuthenticated()" />
 
         <security:intercept-url pattern="/rest/**" access="isFullyAuthenticated()" />
-	<security:intercept-url pattern="/json/**" access="isFullyAuthenticated()" />
-    <security:intercept-url pattern="/WEB-INF/classes/legacy-schema" access="isAnonymous()" />
+        <security:intercept-url pattern="/json/**" access="isFullyAuthenticated()" />
+        <security:intercept-url pattern="/WEB-INF/classes/legacy-schema" access="isAnonymous()" />
         <security:logout logout-url="/logout"/>
  	<security:http-basic/>
   

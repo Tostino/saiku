@@ -1,12 +1,18 @@
 package org.saiku.web.rest.resources;
 
+import mondrian.olap.CacheControl;
+import mondrian.rolap.RolapSchema;
+import org.saiku.datasources.connection.IConnectionManager;
+import org.saiku.service.datasource.DatasourceService;
+import org.saiku.service.user.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
+import javax.ws.rs.core.Response;
 
 import mondrian.olap.MondrianServer;
 import mondrian.olap.MondrianServer.MondrianVersion;
@@ -22,6 +28,12 @@ import mondrian.server.monitor.StatementInfo;
 @Path("/saiku/statistics")
 public class StatisticsResource {
 
+	private static final Logger log = LoggerFactory.getLogger(StatisticsResource.class);
+    private DatasourceService datasourceService;
+
+    public void setDatasourceService(DatasourceService ds) {
+        datasourceService = ds;
+    }
 //	StringWriter sqlWriter = new StringWriter();
 //	StringWriter mdxWriter = new StringWriter();
 //	StringWriter profileWriter = new StringWriter();
@@ -47,6 +59,30 @@ public class StatisticsResource {
 //		Logger.getRootLogger().addAppender(appender);
 //	}
 
+	/**
+	 * Clear mondrian cache.
+	 * @summary clear mondrian cache
+	 * @return A 200 response
+	 */
+	@GET
+	@Path("/mondrian/clearcache")
+	public Response clearSession()
+	{
+		try {
+            datasourceService.getConnectionManager().refreshAllConnections();
+			for(RolapSchema rolapSchema : RolapSchema.getRolapSchemas())
+			{
+				CacheControl cacheControl = rolapSchema.getInternalConnection().getCacheControl(null);
+                cacheControl.flushSchema(rolapSchema);
+                cacheControl.flushSchemaCache();
+			}
+			return Response.ok("Cache cleared").build();
+		}
+		catch (Exception e) {
+
+			return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity(e.getLocalizedMessage()).build();
+		}
+	}
   /**
    * Get Mondrian Stats
    * @summary Get Mondrian stats

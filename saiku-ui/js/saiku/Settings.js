@@ -31,13 +31,19 @@ var Settings = {
     REST_MOUNT_POINT: "/rest/saiku/",
     DIMENSION_PREFETCH: true,
     DIMENSION_SHOW_ALL: false,
-    DIMENSION_SHOW_REDUCED: true,
+	/*
+	 * Valid values for DIMENSION_HIDE_HIERARCHY:
+	 * 1) NONE
+	 * 2) SINGLE_LEVEL
+	 * 3) ALL
+	 */
+    DIMENSION_HIDE_HIERARCHY: 'SINGLE_LEVEL',
     ERROR_LOGGING: false,
     I18N_LOCALE: "en",
     // number of erroneous ajax calls in a row before UI cant recover
     ERROR_TOLERANCE: 3,
     QUERY_PROPERTIES: {
-        'saiku.olap.query.automatic_execution': true,
+        'saiku.olap.query.automatic_execution': false,
         'saiku.olap.query.nonempty': true,
         'saiku.olap.query.nonempty.rows': true,
         'saiku.olap.query.nonempty.columns': true,
@@ -61,7 +67,7 @@ var Settings = {
     MEMBERS_FROM_RESULT: true,
     MEMBERS_LIMIT: 3000,
     MEMBERS_SEARCH_LIMIT: 75,
-    ALLOW_IMPORT_EXPORT: false,
+    ALLOW_IMPORT_EXPORT: true,
     ALLOW_PARAMETERS: true,
     PLUGINS: [
         "Chart"
@@ -69,7 +75,7 @@ var Settings = {
     DEFAULT_VIEW_STATE: 'view', // could be 'edit' as well
     DEMO: false,
     TELEMETRY_SERVER: 'http://telemetry.analytical-labs.com:7000',
-    LOCALSTORAGE_EXPIRATION: 10 * 60 * 60 * 1000 /* 10 hours, in ms */,
+    LOCALSTORAGE_EXPIRATION: 1 * 60 * 60 * 1000 /* 1 hours, in ms */,
     UPGRADE: false,
     EVALUATION_PANEL_LOGIN: false,
     QUERY_OVERWRITE_WARNING: true,

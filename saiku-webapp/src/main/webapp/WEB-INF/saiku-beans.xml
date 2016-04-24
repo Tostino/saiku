@@ -187,7 +187,9 @@
         <property name="userService" ref="userServiceBean"/>
     </bean>
 
-    <bean id="statsBean" class="org.saiku.web.rest.resources.StatisticsResource"/>
+    <bean id="statsBean" class="org.saiku.web.rest.resources.StatisticsResource">
+        <property name="datasourceService" ref="datasourceServiceBean"/>
+    </bean>
 
     <bean id="startupBean" class="org.saiku.web.rest.util.StartupResource" init-method="init"/>
 
