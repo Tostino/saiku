@@ -2330,14 +2330,12 @@ span.cancel_search:hover {
 }
 .chart_toolbar a.button {
     display: block;
-    height: 16px;
-    padding: 8px;
+    height: 24px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
 }
 .chart_toolbar a.button:hover {
     border: 1px solid #CCC;
-    padding: 7px;
 }
 .chart_toolbar a.on {
     border: 1px solid #CCC;
@@ -2384,17 +2382,14 @@ span.cancel_search:hover {
 .canvas_wrapper .zoomin {
     background: url('../../../images/src/arrow_in.png') no-repeat;
     background-repeat:  no-repeat;
-    background-position: 7px 7px;
 }
 .canvas_wrapper .zoomout {
     background: url('../../../images/src/arrow_up_bnw.png') no-repeat;
     background-repeat:  no-repeat;
-    background-position: 7px 7px;
 }
 .canvas_wrapper .rerender {
     background: url('../../../images/src/arrow_refresh_bnw.png') no-repeat;
     background-repeat:  no-repeat;
-    background-position: 7px 7px;
 }
 
 .chartworkspace_inner {
