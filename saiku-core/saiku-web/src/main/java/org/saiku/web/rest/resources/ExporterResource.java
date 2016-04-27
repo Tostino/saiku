@@ -292,35 +292,9 @@ public class ExporterResource {
 			converter.convert(in, out, size);
 			out.flush();
 			byte[] doc = out.toByteArray();
-		  byte[] b = null;
-		  if(getVersion()!=null && !getVersion().contains("EE")) {
-			ByteArrayOutputStream baos = new ByteArrayOutputStream();
 
-			PdfReader reader = new PdfReader(doc);
-			PdfStamper pdfStamper = new PdfStamper(reader,
-				baos);
+		    byte[] b = doc;
 
-			URL dir_url = ExporterResource.class.getResource("/org/saiku/web/svg/watermark.png");
-			Image image = Image.getInstance(dir_url);
-
-
-			for (int i = 1; i <= reader.getNumberOfPages(); i++) {
-
-			  PdfContentByte content = pdfStamper.getOverContent(i);
-
-
-			  image.setAbsolutePosition(450f, 280f);
-			/*image.setAbsolutePosition(reader.getPageSize(1).getWidth() - image.getScaledWidth(), reader.getPageSize
-				(1).getHeight() - image.getScaledHeight());*/
-			  //image.setAlignment(Image.MIDDLE);
-			  content.addImage(image);
-			}
-			pdfStamper.close();
-			b = baos.toByteArray();
-		  }
-		  else{
-			b = doc;
-		  }
 
 
 		  if(!type.equals("pdf")) {
