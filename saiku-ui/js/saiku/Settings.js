@@ -54,7 +54,7 @@ var Settings = {
     REPOSITORY_LAZY: false,
     TABLE_LAZY: true,          // Turn lazy loading off / on
     TABLE_LAZY_SIZE: 1000,     // Initial number of items to be rendered
-    TABLE_LAZY_LOAD_ITEMS: 20,       // Additional item per scroll
+    TABLE_LAZY_LOAD_ITEMS: 100,       // Additional item per scroll
     TABLE_LAZY_LOAD_TIME: 20,  // throttling call of lazy loading items
     /* Valid values for CELLSET_FORMATTER:
      * 1) flattened
