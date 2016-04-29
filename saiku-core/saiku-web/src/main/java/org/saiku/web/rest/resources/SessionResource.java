@@ -161,7 +161,7 @@ public class SessionResource  {
    * @return A 200 response.
    */
 	@DELETE
-	public Response logout(@Context HttpServletRequest req) 
+	public Response logout(@Context HttpServletRequest req)
 	{
 		sessionService.logout(req);
 		//		NewCookie terminate = new NewCookie(TokenBasedRememberMeServices.SPRING_SECURITY_REMEMBER_ME_COOKIE_KEY, null);

@@ -14,6 +14,7 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.InvalidObjectException;
@@ -43,19 +44,19 @@ public class JwtFilter extends GenericFilterBean
         HttpServletRequest req = (HttpServletRequest) request;
 
         try {
-            String stringToken = req.getHeader("authorization");
+            String stringToken = null;
+            for(Cookie cookie : req.getCookies())
+            {
+                if("authorization".equals(cookie.getName()))
+                {
+                    stringToken = cookie.getValue();
+                    break;
+                }
+            }
             if (stringToken == null) {
                 chain.doFilter(request, response);
                 return;
             }
-
-            // remove schema from token
-            String authorizationSchema = "bearer=";
-            if (stringToken.indexOf(authorizationSchema) == -1) {
-                chain.doFilter(request, response);
-                return;
-            }
-            stringToken = stringToken.substring(authorizationSchema.length()).trim();
 
             try {
                 final JwtToken token = new JwtToken(stringToken, authenticationKey);
@@ -73,12 +74,5 @@ public class JwtFilter extends GenericFilterBean
             sessionService.logout(req);
             chain.doFilter(request, response);
         }
-    }
-
-    private void jdbcAuth(final ServletRequest request, final ServletResponse response, final FilterChain chain) throws IOException, ServletException
-    {
-        chain.doFilter(request, response);
-        return;
-
     }
 }

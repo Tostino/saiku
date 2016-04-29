@@ -166,6 +166,7 @@ var Session = Backbone.Model.extend({
         this.destroy({async: false });
         //console.log("REFRESH!");
         document.location.reload(false);
+		document.cookie = 'authorization=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
         delete this.id;
 
     },
