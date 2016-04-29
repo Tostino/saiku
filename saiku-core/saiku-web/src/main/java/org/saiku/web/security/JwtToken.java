@@ -1,4 +1,4 @@
-package org.saiku.security;
+package org.saiku.web.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
@@ -8,6 +8,7 @@ import org.springframework.expression.ParseException;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.User;
 
 import java.security.Key;
 import java.util.*;
@@ -20,6 +21,7 @@ public class JwtToken implements Authentication
     private final Collection<GrantedAuthority> authorities;
     private boolean authenticated;
     private Jws<Claims> claims;
+    private User user;
 
     public JwtToken(final String token, final Key key) throws ParseException
     {
@@ -40,6 +42,7 @@ public class JwtToken implements Authentication
                 }
             }
             this.authorities.addAll(tmp);
+            this.user = new User(claims.getBody().getSubject(), "", authorities);
             authenticated = true;
         }
         catch (SignatureException e)
@@ -50,17 +53,17 @@ public class JwtToken implements Authentication
 
     @Override
     public Object getCredentials() {
-        return "";
+        return claims;
     }
 
     @Override
     public Object getPrincipal() {
-        return claims.getBody().getSubject();
+        return user.getUsername();
     }
 
     @Override
     public String getName() {
-        return claims.getBody().getSubject();
+        return user.getUsername();
     }
 
     @Override

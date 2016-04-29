@@ -96,7 +96,7 @@ public class SessionService implements ISessionService {
 			sl = l.getLicense();
 		} catch (Exception e) {
 			throw new LicenseException("Could not find license, please get a free license from http://licensing"
-									   + ".meteorite.bi. You can upload it at http://server:8080/upload.html");
+					+ ".meteorite.bi. You can upload it at http://server:8080/upload.html");
 		}
 
 		if (sl != null) {
@@ -109,7 +109,7 @@ public class SessionService implements ISessionService {
 					authenticate(req, username, password);
 				}
 				if (SecurityContextHolder.getContext() != null
-					&& SecurityContextHolder.getContext().getAuthentication() != null) {
+						&& SecurityContextHolder.getContext().getAuthentication() != null) {
 					Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 
 					if (authorisationPredicate.isAuthorised(auth)) {
@@ -119,6 +119,42 @@ public class SessionService implements ISessionService {
 					} else {
 						log.info(username + " failed authorisation. Rejecting login");
 						throw new RuntimeException("Authorisation failed for: " + username);
+					}
+				}
+				return new HashMap<>();
+			}
+		}
+		return null;
+	}
+
+
+	public Map<String, Object> login() throws Exception {
+		Object sl = null;
+
+		try {
+			sl = l.getLicense();
+		} catch (Exception e) {
+			throw new LicenseException("Could not find license, please get a free license from http://licensing"
+									   + ".meteorite.bi. You can upload it at http://server:8080/upload.html");
+		}
+
+		if (sl != null) {
+
+			l.validateLicense();
+
+			if (l.getLicense() instanceof SaikuLicense2) {
+
+				if (SecurityContextHolder.getContext() != null
+					&& SecurityContextHolder.getContext().getAuthentication() != null)
+				{
+					Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+					if (authorisationPredicate.isAuthorised(authentication)) {
+						Object p = authentication.getPrincipal();
+						createSession(authentication, authentication.getName(), null);
+						return sessionHolder.get(p);
+					} else {
+						log.info(authentication.getName() + " failed authorisation. Rejecting login");
+						throw new RuntimeException("Authorisation failed for: " + authentication.getName());
 					}
 				}
 				return new HashMap<>();

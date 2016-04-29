@@ -42,6 +42,11 @@ public class AnonymousSessionService implements ISessionService {
     return null;
   }
 
+  public Map<String, Object> login() {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
   public void logout( HttpServletRequest req ) {
     // TODO Auto-generated method stub
 

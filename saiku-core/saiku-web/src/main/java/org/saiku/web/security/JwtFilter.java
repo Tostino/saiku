@@ -1,10 +1,10 @@
-package org.saiku.security;
+package org.saiku.web.security;
 
+import org.saiku.service.ISessionService;
 import org.springframework.expression.ParseException;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.InsufficientAuthenticationException;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.util.Assert;
 import org.springframework.web.filter.GenericFilterBean;
@@ -21,11 +21,13 @@ import java.security.Key;
 
 public class JwtFilter extends GenericFilterBean
 {
+    private final ISessionService sessionService;
     private final AuthenticationManager authenticationManager;
     private final Key authenticationKey;
 
-    public JwtFilter(final AuthenticationManager authenticationManager, final String authenticationKey)
+    public JwtFilter(final ISessionService sessionService, final AuthenticationManager authenticationManager, final String authenticationKey)
     {
+        this.sessionService = sessionService;
         this.authenticationManager = authenticationManager;
         this.authenticationKey = new SecretKeySpec(authenticationKey.getBytes(), "AES");
     }
@@ -43,13 +45,15 @@ public class JwtFilter extends GenericFilterBean
         try {
             String stringToken = req.getHeader("authorization");
             if (stringToken == null) {
-                throw new InsufficientAuthenticationException("Authorization header not found");
+                chain.doFilter(request, response);
+                return;
             }
 
             // remove schema from token
-            String authorizationSchema = "bearer";
+            String authorizationSchema = "bearer=";
             if (stringToken.indexOf(authorizationSchema) == -1) {
-                throw new InsufficientAuthenticationException("Authorization schema not found");
+                chain.doFilter(request, response);
+                return;
             }
             stringToken = stringToken.substring(authorizationSchema.length()).trim();
 
@@ -58,12 +62,23 @@ public class JwtFilter extends GenericFilterBean
 
                 final Authentication auth = authenticationManager.authenticate(token);
                 SecurityContextHolder.getContext().setAuthentication(auth);
+                sessionService.login();
                 chain.doFilter(request, response);
             } catch (ParseException e) {
                 throw new InvalidObjectException("Invalid token");
             }
-        } catch (AuthenticationException e) {
-            SecurityContextHolder.clearContext();
         }
+        catch (Exception e) {
+            SecurityContextHolder.clearContext();
+            sessionService.logout(req);
+            chain.doFilter(request, response);
+        }
+    }
+
+    private void jdbcAuth(final ServletRequest request, final ServletResponse response, final FilterChain chain) throws IOException, ServletException
+    {
+        chain.doFilter(request, response);
+        return;
+
     }
 }

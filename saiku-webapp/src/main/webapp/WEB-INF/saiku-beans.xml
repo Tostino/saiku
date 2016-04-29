@@ -192,5 +192,4 @@
     </bean>
 
     <bean id="startupBean" class="org.saiku.web.rest.util.StartupResource" init-method="init"/>
-
 </beans>

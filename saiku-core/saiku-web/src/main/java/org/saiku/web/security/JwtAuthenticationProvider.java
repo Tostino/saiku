@@ -1,4 +1,5 @@
-package org.saiku.security;
+package org.saiku.web.security;
+
 
 import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.security.authentication.CredentialsExpiredException;
