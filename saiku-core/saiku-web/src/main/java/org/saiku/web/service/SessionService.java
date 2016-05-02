@@ -32,6 +32,7 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -128,7 +129,7 @@ public class SessionService implements ISessionService {
 	}
 
 
-	public Map<String, Object> login() throws Exception {
+	public Map<String, Object> login(Authentication token) throws Exception {
 		Object sl = null;
 
 		try {
@@ -144,6 +145,9 @@ public class SessionService implements ISessionService {
 
 			if (l.getLicense() instanceof SaikuLicense2) {
 
+				if (authenticationManager != null) {
+					authenticate(token);
+				}
 				if (SecurityContextHolder.getContext() != null
 					&& SecurityContextHolder.getContext().getAuthentication() != null)
 				{
@@ -247,6 +251,21 @@ public class SessionService implements ISessionService {
 	}
 
 	/* (non-Javadoc)
+	 * @see org.saiku.web.service.ISessionService#authenticate(javax.servlet.http.HttpServletRequest, java.lang.String, java.lang.String)
+	 */
+	public void authenticate(Authentication token) {
+		try {
+			Authentication authentication = this.authenticationManager.authenticate(token);
+			log.debug("Logging in with [{}]", authentication.getPrincipal());
+			SecurityContextHolder.getContext().setAuthentication(authentication);
+		}
+		catch (AuthenticationException bd) {
+			throw new RuntimeException("Authentication failed");
+		}
+
+	}
+
+	/* (non-Javadoc)
 	 * @see org.saiku.web.service.ISessionService#getSession(javax.servlet.http.HttpServletRequest)
 	 */
 	public Map<String,Object> getSession() {
@@ -293,6 +312,16 @@ public class SessionService implements ISessionService {
 
 
   }
+
+	public boolean isAuthenticated()
+	{
+		if (SecurityContextHolder.getContext() != null && SecurityContextHolder.getContext().getAuthentication() != null)
+		{
+			Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+			return auth.isAuthenticated();
+		}
+		return false;
+	}
 
 
 }

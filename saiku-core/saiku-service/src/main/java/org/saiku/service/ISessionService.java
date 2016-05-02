@@ -15,6 +15,8 @@
  */
 package org.saiku.service;
 
+import org.springframework.security.core.Authentication;
+
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
@@ -24,7 +26,7 @@ public interface ISessionService {
   Map<String, Object> login(HttpServletRequest req,
                             String username, String password) throws Exception;
 
-  Map<String, Object> login() throws Exception;
+  Map<String, Object> login(Authentication token) throws Exception;
 
   void logout(HttpServletRequest req);
 
@@ -36,4 +38,6 @@ public interface ISessionService {
   Map<String, Object> getAllSessionObjects();
 
   void clearSessions(HttpServletRequest req, String username, String password) throws Exception;
+
+  boolean isAuthenticated();
 }

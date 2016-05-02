@@ -41,37 +41,44 @@ public class JwtFilter extends GenericFilterBean
     @Override
     public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain) throws IOException, ServletException
     {
-        HttpServletRequest req = (HttpServletRequest) request;
+
 
         try {
-            String stringToken = null;
-            for(Cookie cookie : req.getCookies())
+            if(!sessionService.isAuthenticated())
             {
-                if("authorization".equals(cookie.getName()))
+                HttpServletRequest req = (HttpServletRequest) request;
+                String stringToken = null;
+                for (Cookie cookie : req.getCookies())
                 {
-                    stringToken = cookie.getValue();
-                    break;
+                    if ("authorization".equals(cookie.getName()))
+                    {
+                        stringToken = cookie.getValue();
+                        break;
+                    }
+                }
+                if (stringToken == null)
+                {
+                    return;
+                }
+
+                try
+                {
+                    final JwtToken token = new JwtToken(stringToken, authenticationKey);
+                    sessionService.login(token);
+
+                }
+                catch (ParseException e)
+                {
+                    throw new InvalidObjectException("Invalid token");
                 }
             }
-            if (stringToken == null) {
-                chain.doFilter(request, response);
-                return;
-            }
-
-            try {
-                final JwtToken token = new JwtToken(stringToken, authenticationKey);
-
-                final Authentication auth = authenticationManager.authenticate(token);
-                SecurityContextHolder.getContext().setAuthentication(auth);
-                sessionService.login();
-                chain.doFilter(request, response);
-            } catch (ParseException e) {
-                throw new InvalidObjectException("Invalid token");
-            }
         }
-        catch (Exception e) {
-            SecurityContextHolder.clearContext();
-            sessionService.logout(req);
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally
+        {
             chain.doFilter(request, response);
         }
     }

@@ -16,6 +16,9 @@
 
 package org.saiku.service;
 
+import com.sun.javafx.fxml.expression.Expression;
+import org.springframework.security.core.Authentication;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -42,7 +45,7 @@ public class AnonymousSessionService implements ISessionService {
     return null;
   }
 
-  public Map<String, Object> login() {
+  public Map<String, Object> login(Authentication token) {
     // TODO Auto-generated method stub
     return null;
   }
@@ -70,4 +73,8 @@ public class AnonymousSessionService implements ISessionService {
     session = null;
   }
 
+  public boolean isAuthenticated()
+  {
+    return true;
+  }
 }

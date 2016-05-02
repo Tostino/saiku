@@ -26,7 +26,21 @@
     </security:authentication-manager>
 
 
-    <bean id="org.springframework.security.filterChainProxy" class="org.saiku.web.security.JwtFilter">
+    <bean id="org.springframework.security.filterChainProxy" class="org.springframework.security.web.FilterChainProxy">
+        <constructor-arg>
+            <list>
+                <security:filter-chain pattern="/**" filters="securityContextPersistenceFilter, JwtFilter"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="securityContextPersistenceFilter" class="org.springframework.security.web.context.SecurityContextPersistenceFilter">
+        <constructor-arg>
+            <bean class="org.springframework.security.web.context.HttpSessionSecurityContextRepository"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="JwtFilter" class="org.saiku.web.security.JwtFilter">
         <constructor-arg name="sessionService" ref="sessionService" />
         <constructor-arg name="authenticationManager" ref="authenticationManager" />
         <constructor-arg name="authenticationKey" value="${jwt.encryptionkey}" />
