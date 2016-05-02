@@ -1721,7 +1721,6 @@ a.disabled_toolbar:hover {
 .query_toolbar a {
     display: block;
     height: 16px;
-    padding: 8px;
     text-decoration: none;
     color: black;
     font-weight: normal;
@@ -1734,6 +1733,7 @@ a.disabled_toolbar:hover {
 }
 .query_toolbar a.button {
     text-align: center;
+	border: 1px solid transparent;
 }
 .query_toolbar a.button:hover {
     border: 1px solid #CCC;
