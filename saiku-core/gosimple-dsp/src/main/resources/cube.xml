@@ -1777,3 +1777,786 @@
         </MeasureGroup>
     </MeasureGroups>
 </Cube>
+<Cube name="~CLIENT_DESCRIPTION~ - Contract" visible="true" cache="true" >
+<Dimensions>
+    <Dimension source="Client" />
+    <Dimension source="Lumpsum" />
+    <Dimension source="Employee" />
+    <Dimension name="Contract Header" visible="true" table="dim_contract_header" key="contract_header_sk" hanger="false">
+        <Attributes>
+            <Attribute name="contract_header_sk" levelType="Regular" keyColumn="contract_header_sk" hasHierarchy="false" />
+            <Attribute name="Contract Name" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="contract_name" />
+                </Key>
+            </Attribute>
+            <Attribute name="Contact Name" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="contact_name" />
+                </Key>
+            </Attribute>
+            <Attribute name="Contact Email" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="contact_email" />
+                </Key>
+            </Attribute>
+            <Attribute name="Contact Phone" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="contact_phone" />
+                </Key>
+            </Attribute>
+            <Attribute name="Contract State" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="contract_state" />
+                </Key>
+            </Attribute>
+            <Attribute name="Contract Type" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="contract_type" />
+                </Key>
+            </Attribute>
+            <Attribute name="Contract Version ID" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="contract_version_id" />
+                </Key>
+            </Attribute>
+            <Attribute name="Contract Sequence" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="contract_sequence" />
+                </Key>
+            </Attribute>
+            <Attribute name="Cost Basis Type" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="cost_basis_type" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_01" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_02" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_03" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_04" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_05" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_06" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_07" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_08" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_09" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_10" />
+                </Key>
+            </Attribute>
+        </Attributes>
+        <Hierarchies>
+            <Hierarchy name="Contract Name" visible="true" hasAll="true">
+                <Level visible="true" attribute="Contract Name" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Contact Name" visible="true" hasAll="true">
+                <Level visible="true" attribute="Contact Name" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Contact Email" visible="true" hasAll="true">
+                <Level visible="true" attribute="Contact Email" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Contact Phone" visible="true" hasAll="true">
+                <Level visible="true" attribute="Contact Phone" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Contract State" visible="true" hasAll="true">
+                <Level visible="true" attribute="Contract State" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Contract Type" visible="true" hasAll="true">
+                <Level visible="true" attribute="Contract Type" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Contract Version ID" visible="true" hasAll="true">
+                <Level visible="true" attribute="Contract Version ID" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Contract Sequence" visible="true" hasAll="true">
+                <Level visible="true" attribute="Contract Sequence" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Cost Basis Type" visible="true" hasAll="true">
+                <Level visible="true" attribute="Cost Basis Type" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 01"  visible="~CONTRACT_CDF_ENABLED_01~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_01~">
+                <Level visible="true" attribute="Client Defined Field 01" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_01~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 02"  visible="~CONTRACT_CDF_ENABLED_02~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_02~">
+                <Level visible="true" attribute="Client Defined Field 02" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_02~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 03"  visible="~CONTRACT_CDF_ENABLED_03~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_03~">
+                <Level visible="true" attribute="Client Defined Field 03" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_03~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 04"  visible="~CONTRACT_CDF_ENABLED_04~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_04~">
+                <Level visible="true" attribute="Client Defined Field 04" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_04~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 05"  visible="~CONTRACT_CDF_ENABLED_05~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_05~">
+                <Level visible="true" attribute="Client Defined Field 05" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_05~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 06"  visible="~CONTRACT_CDF_ENABLED_06~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_06~">
+                <Level visible="true" attribute="Client Defined Field 06" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_06~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 07"  visible="~CONTRACT_CDF_ENABLED_07~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_07~">
+                <Level visible="true" attribute="Client Defined Field 07" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_07~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 08"  visible="~CONTRACT_CDF_ENABLED_08~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_08~">
+                <Level visible="true" attribute="Client Defined Field 08" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_08~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 09"  visible="~CONTRACT_CDF_ENABLED_09~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_09~">
+                <Level visible="true" attribute="Client Defined Field 09" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_09~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 10"  visible="~CONTRACT_CDF_ENABLED_10~" hasAll="true" caption="~CONTRACT_CDF_CAPTION_10~">
+                <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~CONTRACT_CDF_CAPTION_10~" />
+            </Hierarchy>
+        </Hierarchies>
+    </Dimension>
+    <Dimension name="Product" visible="true" table="dim_product" key="product_sk" hanger="false">
+        <Attributes>
+            <Attribute name="product_sk" levelType="Regular" keyColumn="product_sk" hasHierarchy="false" />
+            <Attribute name="Product Name" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="product_name" />
+                </Key>
+            </Attribute>
+            <Attribute name="Product Number" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="product_number" />
+                </Key>
+                <Name>
+                    <Column name="product_number" />
+                </Name>
+            </Attribute>
+            <Attribute name="GTIN Number" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="gtin_number" />
+                </Key>
+            </Attribute>
+            <Attribute name="UPC Number" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="upc_number" />
+                </Key>
+            </Attribute>
+            <Attribute name="Brand Name" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="brand_name" />
+                </Key>
+            </Attribute>
+            <Attribute name="Pack/Size/UOM" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="pack_size_size_uom" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_01" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_02" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_03" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_04" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_05" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_06" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_07" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_08" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_09" />
+                </Key>
+            </Attribute>
+            <Attribute name="Client Defined Field 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="attribute_10" />
+                </Key>
+            </Attribute>
+            <Attribute name="Product Grouping 01" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_01" />
+                </Key>
+            </Attribute>
+            <Attribute name="Product Grouping 02" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_02" />
+                </Key>
+                <Name>
+                    <Column name="grouping_02" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 03" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_03" />
+                </Key>
+                <Name>
+                    <Column name="grouping_03" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 04" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_04" />
+                </Key>
+                <Name>
+                    <Column name="grouping_04" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 05" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_05" />
+                </Key>
+                <Name>
+                    <Column name="grouping_05" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 06" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_06" />
+                </Key>
+                <Name>
+                    <Column name="grouping_06" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 07" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_07" />
+                </Key>
+                <Name>
+                    <Column name="grouping_07" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 08" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_08" />
+                </Key>
+                <Name>
+                    <Column name="grouping_08" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 09" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_09" />
+                </Key>
+                <Name>
+                    <Column name="grouping_09" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 10" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_10" />
+                </Key>
+                <Name>
+                    <Column name="grouping_10" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 11" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_11" />
+                </Key>
+                <Name>
+                    <Column name="grouping_11" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 12" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_12" />
+                </Key>
+                <Name>
+                    <Column name="grouping_12" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 13" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_13" />
+                </Key>
+                <Name>
+                    <Column name="grouping_13" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 14" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_14" />
+                </Key>
+                <Name>
+                    <Column name="grouping_14" />
+                </Name>
+            </Attribute>
+            <Attribute name="Product Grouping 15" levelType="Regular" datatype="String" hasHierarchy="false">
+                <Key>
+                    <Column name="grouping_15" />
+                </Key>
+                <Name>
+                    <Column name="grouping_15" />
+                </Name>
+            </Attribute>
+        </Attributes>
+        <Hierarchies>
+            <Hierarchy name="Product Name" visible="true" hasAll="true">
+                <Level visible="true" attribute="Product Name" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Product Number" visible="true" hasAll="true">
+                <Level visible="true" attribute="Product Number" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="GTIN Number" visible="true" hasAll="true">
+                <Level visible="true" attribute="GTIN Number" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="UPC Number" visible="true" hasAll="true">
+                <Level visible="true" attribute="UPC Number" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Brand Name" visible="true" hasAll="true">
+                <Level visible="true" attribute="Brand Name" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Pack/Size/UOM" visible="true" hasAll="true">
+                <Level visible="true" attribute="Pack/Size/UOM" hideMemberIf="Never" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 01"  visible="~PRODUCT_CDF_ENABLED_01~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_01~">
+                <Level visible="true" attribute="Client Defined Field 01" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_01~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 02"  visible="~PRODUCT_CDF_ENABLED_02~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_02~">
+                <Level visible="true" attribute="Client Defined Field 02" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_02~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 03"  visible="~PRODUCT_CDF_ENABLED_03~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_03~">
+                <Level visible="true" attribute="Client Defined Field 03" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_03~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 04"  visible="~PRODUCT_CDF_ENABLED_04~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_04~">
+                <Level visible="true" attribute="Client Defined Field 04" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_04~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 05"  visible="~PRODUCT_CDF_ENABLED_05~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_05~">
+                <Level visible="true" attribute="Client Defined Field 05" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_05~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 06"  visible="~PRODUCT_CDF_ENABLED_06~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_06~">
+                <Level visible="true" attribute="Client Defined Field 06" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_06~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 07"  visible="~PRODUCT_CDF_ENABLED_07~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_07~">
+                <Level visible="true" attribute="Client Defined Field 07" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_07~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 08"  visible="~PRODUCT_CDF_ENABLED_08~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_08~">
+                <Level visible="true" attribute="Client Defined Field 08" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_08~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 09"  visible="~PRODUCT_CDF_ENABLED_09~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_09~">
+                <Level visible="true" attribute="Client Defined Field 09" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_09~" />
+            </Hierarchy>
+            <Hierarchy name="Client Defined Field 10"  visible="~PRODUCT_CDF_ENABLED_10~" hasAll="true" caption="~PRODUCT_CDF_CAPTION_10~">
+                <Level visible="true" attribute="Client Defined Field 10" hideMemberIf="Never" caption="~PRODUCT_CDF_CAPTION_10~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_01~" visible="~PRODUCT_GROUPING_ENABLED_01~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 01" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_01~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_02~" visible="~PRODUCT_GROUPING_ENABLED_02~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 02" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_02~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_03~" visible="~PRODUCT_GROUPING_ENABLED_03~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 03" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_03~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_04~" visible="~PRODUCT_GROUPING_ENABLED_04~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 04" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_04~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_05~" visible="~PRODUCT_GROUPING_ENABLED_05~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 05" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_05~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_06~" visible="~PRODUCT_GROUPING_ENABLED_06~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 06" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_06~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_07~" visible="~PRODUCT_GROUPING_ENABLED_07~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 07" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_07~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_08~" visible="~PRODUCT_GROUPING_ENABLED_08~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 08" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_08~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_09~" visible="~PRODUCT_GROUPING_ENABLED_09~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 09" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_09~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_10~" visible="~PRODUCT_GROUPING_ENABLED_10~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 10" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_10~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_11~" visible="~PRODUCT_GROUPING_ENABLED_11~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 11" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_11~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_12~" visible="~PRODUCT_GROUPING_ENABLED_12~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 12" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_12~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_13~" visible="~PRODUCT_GROUPING_ENABLED_13~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 13" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_13~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_14~" visible="~PRODUCT_GROUPING_ENABLED_14~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 14" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_14~" />
+            </Hierarchy>
+            <Hierarchy name="~PRODUCT_GROUPING_CAPTION_15~" visible="~PRODUCT_GROUPING_ENABLED_15~" hasAll="true">
+                <Level  visible="true" attribute="Product Grouping 15" hideMemberIf="Never" caption="~PRODUCT_GROUPING_CAPTION_15~" />
+            </Hierarchy>
+        </Hierarchies>
+    </Dimension>
+    <Dimension source="Time" name="Time - Start Date" />
+    <Dimension source="Time" name="Time - End Date" />
+</Dimensions>
+<MeasureGroups>
+    <MeasureGroup name="Contract" type="fact" table="fact_contract_view">
+        <Measures>
+            <Measure name="Rebate Direct Percent" datatype="Numeric" aggregator="avg" visible="true" formatString="#,##0.00%">
+                <Arguments>
+                    <Column name="rebate_direct_percent" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Percent" datatype="Numeric" aggregator="avg" visible="true" formatString="#,##0.00%">
+                <Arguments>
+                    <Column name="rebate_deviated_percent" />
+                </Arguments>
+            </Measure>
+            <Measure name="Lumpsum Amount" datatype="Numeric" aggregator="sum" visible="true" formatString="$#,##0.00">
+                <Arguments>
+                    <Column name="lumpsum_amount" />
+                </Arguments>
+            </Measure>
+            <Measure name="Probable Exposure" datatype="Numeric" aggregator="sum" visible="true" formatString="$#,##0.00">
+                <Arguments>
+                    <Column name="probable_exposure" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_01~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_01~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_01" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_02~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_02~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_02" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_03~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_03~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_03" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_04~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_04~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_04" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_05~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_05~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_05" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_06~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_06~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_06" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_07~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_07~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_07" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_08~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_08~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_08" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_09~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_09~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_09" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Rate - ~MEASURE_CAPTION_10~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_10~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_rate_measure_10" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_01~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_01~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_01" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_02~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_02~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_02" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_03~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_03~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_03" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_04~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_04~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_04" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_05~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_05~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_05" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_06~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_06~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_06" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_07~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_07~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_07" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_08~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_08~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_08" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_09~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_09~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_09" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Direct Price - ~MEASURE_CAPTION_10~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_10~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_direct_price_measure_10" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_01~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_01~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_01" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_02~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_02~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_02" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_03~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_03~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_03" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_04~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_04~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_04" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_05~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_05~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_05" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_06~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_06~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_06" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_07~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_07~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_07" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_08~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_08~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_08" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_09~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_09~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_09" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Rate - ~MEASURE_CAPTION_10~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_10~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_rate_measure_10" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_01~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_01~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_01" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_02~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_02~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_02" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_03~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_03~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_03" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_04~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_04~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_04" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_05~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_05~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_05" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_06~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_06~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_06" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_07~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_07~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_07" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_08~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_08~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_08" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_09~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_09~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_09" />
+                </Arguments>
+            </Measure>
+            <Measure name="Rebate Deviated Price - ~MEASURE_CAPTION_10~" datatype="Numeric" aggregator="avg" visible="~MEASURE_ENABLED_10~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="rebate_deviated_price_measure_10" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_01~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_01~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_01" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_02~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_02~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_02" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_03~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_03~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_03" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_04~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_04~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_04" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_05~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_05~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_05" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_06~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_06~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_06" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_07~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_07~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_07" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_08~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_08~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_08" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_09~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_09~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_09" />
+                </Arguments>
+            </Measure>
+            <Measure name="Estimated Quantity - ~MEASURE_CAPTION_10~" datatype="Numeric" aggregator="sum" visible="~MEASURE_ENABLED_10~" formatString="#,##0.00">
+                <Arguments>
+                    <Column name="estimated_quantity_measure_10" />
+                </Arguments>
+            </Measure>
+        </Measures>
+        <DimensionLinks>
+            <ForeignKeyLink dimension="Client">
+                <ForeignKey>
+                    <Column name="client_sk" />
+                </ForeignKey>
+            </ForeignKeyLink>
+            <ForeignKeyLink dimension="Contract Header">
+                <ForeignKey>
+                    <Column name="contract_header_sk" />
+                </ForeignKey>
+            </ForeignKeyLink>
+            <ForeignKeyLink dimension="Employee">
+                <ForeignKey>
+                    <Column name="account_sk" />
+                </ForeignKey>
+            </ForeignKeyLink>
+            <ForeignKeyLink dimension="Lumpsum">
+                <ForeignKey>
+                    <Column name="lumpsum_sk" />
+                </ForeignKey>
+            </ForeignKeyLink>
+            <ForeignKeyLink dimension="Product">
+                <ForeignKey>
+                    <Column name="product_sk" />
+                </ForeignKey>
+            </ForeignKeyLink>
+            <ForeignKeyLink dimension="Time - Start Date">
+                <ForeignKey>
+                    <Column name="end_date" />
+                    <Column name="client_sk" />
+                </ForeignKey>
+            </ForeignKeyLink>
+            <ForeignKeyLink dimension="Time - End Date">
+                <ForeignKey>
+                    <Column name="start_date" />
+                    <Column name="client_sk" />
+                </ForeignKey>
+            </ForeignKeyLink>
+        </DimensionLinks>
+    </MeasureGroup>
+</MeasureGroups>
+</Cube>
